@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/treanding_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControladorRest/Usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControladorRest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/ConexionBD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/ManejadorBD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Compartido.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Evento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/EventoAsistente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Orden.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/OrdenDetalle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/ProductoAtributo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/ProductoImagen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Evento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Producto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Compartido.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Evento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/EventoAsistente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Orden.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/OrdenDetalle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Producto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/ProductoAtributo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/ProductoImagen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vlu6BAQRlsr5BtnsKQsR5XKnXB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodrigo.cambray\PycharmProjects\treanding_api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="treanding_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="" />
+      <created>1744731803429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744731803429</updated>
+    </task>
+    <servers />
+  </component>
+</project>

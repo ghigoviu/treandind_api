@@ -1,0 +1,30 @@
+from pydantic import BaseModel, EmailStr
+from datetime import datetime
+from typing import Optional
+
+
+class UsuarioBase(BaseModel):
+    nombre: str
+    email: EmailStr
+    imagen_perfil: Optional[str] = None
+
+
+class UsuarioCreate(UsuarioBase):
+    password: str
+
+
+class UsuarioRead(UsuarioBase):
+    id: int
+    creado_en: datetime
+
+    class Config:
+        orm_mode = True
+
+
+class UsuarioUpdate(BaseModel):
+    nombre: Optional[str] = None
+    email: Optional[EmailStr] = None
+    imagen_perfil: Optional[str] = None
+
+    class Config:
+        orm_mode = True
