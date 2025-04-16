@@ -20,3 +20,13 @@ class CompartidoRead(CompartidoBase):
 
     class Config:
         from_attributes = True
+
+
+class CompartidoUpdate(BaseModel):
+    mensaje: Optional[str] = None
+    producto_id: Optional[int] = None
+    evento_id: Optional[int] = None
+    amigo_id: Optional[int] = None
+
+    class Config:
+        from_attributes = True

@@ -7,11 +7,12 @@ class OrdenDetalle(Base):
     __tablename__ = 'orden_detalles'
 
     id = Column(Integer, primary_key=True, index=True)
+    cantidad = Column(Integer, nullable=False)
+    precio_unit = Column(Float, nullable=False)
+
     orden_id = Column(Integer, ForeignKey('ordenes.id'), nullable=False)
     producto_id = Column(Integer, ForeignKey('productos.id'), nullable=True)
     evento_id = Column(Integer, ForeignKey('eventos.id'), nullable=True)
-    cantidad = Column(Integer, nullable=False)
-    precio_unit = Column(Float, nullable=False)
 
     # Relaciones
     orden = relationship("Orden", backref="detalles")

@@ -7,12 +7,13 @@ class Compartido(Base):
     __tablename__ = 'compartidos'
 
     id = Column(Integer, primary_key=True, index=True)
+    mensaje = Column(String(255), nullable=True)
+    creado_en = Column(DateTime, default=func.now(), nullable=False)
+
     usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
     producto_id = Column(Integer, ForeignKey('productos.id'), nullable=True)
     evento_id = Column(Integer, ForeignKey('eventos.id'), nullable=True)
     amigo_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)  # Usuario al que se le comparte
-    mensaje = Column(String(255), nullable=True)
-    creado_en = Column(DateTime, default=func.now(), nullable=False)
 
     # Relaciones
     usuario = relationship("Usuario", backref="compartidos")
