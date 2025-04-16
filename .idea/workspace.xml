@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControladorRest/Compartido.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Compartido.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Orden.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Compartido.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Orden.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Orden.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/OrdenDetalle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/OrdenDetalle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Compartido.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Orden.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Orden.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/ProductoImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/ProductoImagen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

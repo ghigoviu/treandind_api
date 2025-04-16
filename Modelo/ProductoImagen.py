@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from Modelo import Base
 
+
 class ProductoImagen(Base):
     __tablename__ = 'producto_imagenes'
 

@@ -9,7 +9,7 @@ class OrdenDetalleCreate(BaseModel):
     cantidad: int = Field(..., gt=0)
     precio_unitario: float = Field(..., gt=0)
 
-    @field_validator
+    @field_validator('producto_id')
     def validate_one_fk(cls, values):
         producto_id, evento_id = values.get("producto_id"), values.get("evento_id")
         if not producto_id and not evento_id:
