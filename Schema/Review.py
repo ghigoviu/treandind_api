@@ -23,3 +23,11 @@ class ReviewRead(ReviewBase):
 
     class Config:
         from_attributes = True
+
+
+class ReviewUpdate(BaseModel):
+    usuario_id: int
+    calificacion: Optional[float]
+    comentario: Optional[str] = None
+    producto_id: Optional[int] = None
+    evento_id: Optional[int] = None

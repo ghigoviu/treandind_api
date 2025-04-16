@@ -7,12 +7,13 @@ class Review(Base):
     __tablename__ = 'reviews'
 
     id = Column(Integer, primary_key=True, index=True)
-    producto_id = Column(Integer, ForeignKey('productos.id'), nullable=True)
-    evento_id = Column(Integer, ForeignKey('eventos.id'), nullable=True)
-    usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
     calificacion = Column(Float, nullable=False)
     comentario = Column(Text, nullable=True)
     creado_en = Column(DateTime, default=func.now(), nullable=False)
+
+    producto_id = Column(Integer, ForeignKey('productos.id'), nullable=True)
+    evento_id = Column(Integer, ForeignKey('eventos.id'), nullable=True)
+    usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
 
     # Relaciones
     producto = relationship("Producto", backref="reviews")

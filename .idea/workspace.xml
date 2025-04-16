@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControladorRest/Amistad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControladorRest/Categoria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControladorRest/Producto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Amistad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Categoria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Amistad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Categoria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Amistad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Categoria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControladorRest/Evento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datos/ConexionBD.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/ConexionBD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorio/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Compartido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Amistad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorio/Evento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Evento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorio/Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schema/Evento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Evento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/EventoAsistente.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/EventoAsistente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Orden.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Orden.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/OrdenDetalle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/OrdenDetalle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/ProductoAtributo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/ProductoAtributo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/ProductoImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/ProductoImagen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rodrigo.cambray\PycharmProjects\treanding_api" />
