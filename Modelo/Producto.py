@@ -14,7 +14,8 @@ class Producto(Base):
     stock = Column(Integer, nullable=False, default=0)
 
     usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
-    categoria_id = Column(Integer, nullable=True)  # Puedes hacer FK si defines tabla de categorías
+    categoria_id = Column(Integer, ForeignKey("categorias.id"))
+    categoria = relationship("Categoria", back_populates="productos")
 
     requiere_edad = Column(Boolean, default=False)
     calificacion = Column(Float, default=0.0)  # precalculado

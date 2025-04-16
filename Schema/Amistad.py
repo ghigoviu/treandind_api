@@ -1,0 +1,32 @@
+from pydantic import BaseModel, field_validator
+from datetime import datetime
+from typing import Optional
+
+
+class AmistadBase(BaseModel):
+    usuario_id: int
+    amigo_id: int
+    estado: Optional[str] = "pendiente"
+
+    @field_validator('estado')
+    def validar_estado(cls, v):
+        estados_validos = ["pendiente", "aceptada", "rechazada"]
+        if v not in estados_validos:
+            raise ValueError(f"Estado inválido. Debe ser uno de: {', '.join(estados_validos)}")
+        return v
+
+
+class AmistadCreate(AmistadBase):
+    pass
+
+
+class AmistadUpdate(BaseModel):
+    estado: Optional[str]
+
+
+class AmistadRead(AmistadBase):
+    id: int
+    creado_en: datetime
+
+    class Config:
+        from_attributes = True

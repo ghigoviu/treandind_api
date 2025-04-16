@@ -18,7 +18,7 @@ class UsuarioRead(UsuarioBase):
     creado_en: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class UsuarioUpdate(BaseModel):
@@ -27,4 +27,4 @@ class UsuarioUpdate(BaseModel):
     imagen_perfil: Optional[str] = None
 
     class Config:
-        orm_mode = True
+        from_attributes = True

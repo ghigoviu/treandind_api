@@ -16,4 +16,4 @@ class OrdenRead(OrdenBase):
     creado_en: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True

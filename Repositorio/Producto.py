@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
-from Modelo import Producto
+from Modelo.Producto import Producto
 from typing import List, Optional
+
 
 class ProductoRepo:
     @staticmethod
