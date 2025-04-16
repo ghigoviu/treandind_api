@@ -12,7 +12,7 @@ class ProductoAtributo(Base):
     valor = Column(String(100), nullable=False)
 
     # Relación
-    producto = relationship("Producto", backref="atributos")
+    producto = relationship("Producto", back_populates="atributos")
 
     def __init__(self, producto_id, nombre, valor):
         self.producto_id = producto_id

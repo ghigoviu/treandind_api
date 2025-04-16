@@ -24,8 +24,8 @@ class Producto(Base):
 
     # Relaciones
     usuario = relationship("Usuario", backref="productos")
-    imagenes = relationship("ProductoImagen", backref="producto")
-    atributos = relationship("ProductoAtributo", backref="producto")
+    imagenes = relationship("ProductoImagen", back_populates="producto")
+    atributos = relationship("ProductoAtributo", back_populates="producto")
 
     def __init__(self, nombre, descripcion, precio, stock, usuario_id, categoria_id=None,
                  requiere_edad=False, calificacion=0.0):

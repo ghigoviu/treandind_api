@@ -12,7 +12,7 @@ class ProductoImagen(Base):
     es_portada = Column(Boolean, default=False)
 
     # Relación
-    producto = relationship("Producto", backref="imagenes")
+    producto = relationship("Producto", back_populates="imagenes")
 
     def __init__(self, producto_id, url, es_portada=False):
         self.producto_id = producto_id

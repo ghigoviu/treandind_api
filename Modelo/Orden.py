@@ -15,7 +15,7 @@ class Orden(Base):
 
     # Relación
     usuario = relationship("Usuario", backref="ordenes")
-    detalles = relationship("OrdenDetalle", backref="orden", cascade="all, delete-orphan")
+    detalles = relationship("OrdenDetalle", back_populates="orden")
 
     def __init__(self, usuario_id, estado, total):
         self.usuario_id = usuario_id

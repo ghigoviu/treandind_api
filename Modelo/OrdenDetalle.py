@@ -15,7 +15,7 @@ class OrdenDetalle(Base):
     evento_id = Column(Integer, ForeignKey('eventos.id'), nullable=True)
 
     # Relaciones
-    orden = relationship("Orden", backref="detalles")
+    orden = relationship("Orden", back_populates="detalles")
     producto = relationship("Producto", backref="orden_detalles")
     evento = relationship("Evento", backref="orden_detalles")
 
