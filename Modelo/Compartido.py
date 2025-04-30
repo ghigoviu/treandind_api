@@ -16,7 +16,7 @@ class Compartido(Base):
     amigo_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)  # Usuario al que se le comparte
 
     # Relaciones
-    usuario = relationship("Usuario", backref="compartidos")
+    usuario = relationship("Usuario", foreign_keys=[usuario_id], backref="compartidos_enviados")
     amigo = relationship("Usuario", foreign_keys=[amigo_id], backref="compartidos_recibidos")
     producto = relationship("Producto", backref="compartidos")
     evento = relationship("Evento", backref="compartidos")

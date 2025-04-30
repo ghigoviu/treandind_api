@@ -1,0 +1,154 @@
+{
+  "Usuario": [
+    {"id": 1, "nombre": "Carlos Mendoza", "email": "carlos@example.com", "password": "hash_password_1", "imagen_perfil": "https://randomuser.me/api/portraits/men/1.jpg", "creado_en": "2024-01-10T14:30:00Z"},
+    {"id": 2, "nombre": "Ana Gómez", "email": "ana@example.com", "password": "hash_password_2", "imagen_perfil": "https://randomuser.me/api/portraits/women/2.jpg", "creado_en": "2024-01-12T08:45:00Z"},
+    {"id": 3, "nombre": "Miguel Torres", "email": "miguel@example.com", "password": "hash_password_3", "imagen_perfil": "https://randomuser.me/api/portraits/men/3.jpg", "creado_en": "2024-01-15T11:20:00Z"},
+    {"id": 4, "nombre": "Laura Martínez", "email": "laura@example.com", "password": "hash_password_4", "imagen_perfil": "https://randomuser.me/api/portraits/women/4.jpg", "creado_en": "2024-01-20T16:15:00Z"},
+    {"id": 5, "nombre": "Pedro Sánchez", "email": "pedro@example.com", "password": "hash_password_5", "imagen_perfil": "https://randomuser.me/api/portraits/men/5.jpg", "creado_en": "2024-01-25T09:30:00Z"},
+    {"id": 6, "nombre": "Sofía Rodríguez", "email": "sofia@example.com", "password": "hash_password_6", "imagen_perfil": "https://randomuser.me/api/portraits/women/6.jpg", "creado_en": "2024-02-01T13:45:00Z"},
+    {"id": 7, "nombre": "Lucas García", "email": "lucas@example.com", "password": "hash_password_7", "imagen_perfil": "https://randomuser.me/api/portraits/men/7.jpg", "creado_en": "2024-02-05T10:20:00Z"},
+    {"id": 8, "nombre": "Valentina Díaz", "email": "valentina@example.com", "password": "hash_password_8", "imagen_perfil": "https://randomuser.me/api/portraits/women/8.jpg", "creado_en": "2024-02-10T15:10:00Z"},
+    {"id": 9, "nombre": "Diego López", "email": "diego@example.com", "password": "hash_password_9", "imagen_perfil": "https://randomuser.me/api/portraits/men/9.jpg", "creado_en": "2024-02-15T08:30:00Z"},
+    {"id": 10, "nombre": "Camila Pérez", "email": "camila@example.com", "password": "hash_password_10", "imagen_perfil": "https://randomuser.me/api/portraits/women/10.jpg", "creado_en": "2024-02-20T12:00:00Z"}
+  ],
+  "Categoria": [
+    {"id": 1, "nombre": "Electrónica", "descripcion": "Dispositivos y accesorios electrónicos"},
+    {"id": 2, "nombre": "Ropa", "descripcion": "Prendas y accesorios de vestir"},
+    {"id": 3, "nombre": "Hogar", "descripcion": "Artículos para el hogar y decoración"},
+    {"id": 4, "nombre": "Deportes", "descripcion": "Equipamiento e indumentaria deportiva"},
+    {"id": 5, "nombre": "Libros", "descripcion": "Libros físicos y digitales"},
+    {"id": 6, "nombre": "Belleza", "descripcion": "Productos de cuidado personal y cosmética"},
+    {"id": 7, "nombre": "Juguetes", "descripcion": "Juguetes para niños de todas las edades"},
+    {"id": 8, "nombre": "Alimentos", "descripcion": "Productos alimenticios no perecederos"},
+    {"id": 9, "nombre": "Mascotas", "descripcion": "Artículos para animales domésticos"},
+    {"id": 10, "nombre": "Música", "descripcion": "Instrumentos y accesorios musicales"
+    }
+  ],
+  "Producto": [
+    {"id": 1, "nombre": "Smartphone Galaxy S20", "descripcion": "Teléfono móvil de alta gama con cámara de 64MP", "precio": 699.99, "stock": 45, "usuario_id": 1, "categoria_id": 1, "requiere_edad": false, "calificacion": 4.7, "creado_en": "2024-02-25T10:00:00Z"},
+    {"id": 2, "nombre": "Chaqueta de cuero", "descripcion": "Chaqueta de cuero genuino para hombre", "precio": 189.99, "stock": 20, "usuario_id": 2, "categoria_id": 2, "requiere_edad": false, "calificacion": 4.5, "creado_en": "2024-02-26T11:15:00Z"},
+    {"id": 3, "nombre": "Juego de sartenes antiadherentes", "descripcion": "Set de 3 sartenes con revestimiento cerámico", "precio": 75.50, "stock": 15, "usuario_id": 3, "categoria_id": 3, "requiere_edad": false, "calificacion": 4.8, "creado_en": "2024-03-01T09:30:00Z"},
+    {"id": 4, "nombre": "Balón de fútbol profesional", "descripcion": "Balón oficial de competición", "precio": 49.99, "stock": 30, "usuario_id": 4, "categoria_id": 4, "requiere_edad": false, "calificacion": 4.6, "creado_en": "2024-03-05T14:20:00Z"},
+    {"id": 5, "nombre": "Whisky Premium", "descripcion": "Whisky escocés añejado 18 años", "precio": 120.00, "stock": 10, "usuario_id": 5, "categoria_id": 8, "requiere_edad": true, "calificacion": 4.9, "creado_en": "2024-03-10T16:45:00Z"},
+    {"id": 6, "nombre": "Novela 'El laberinto de los espíritus'", "descripcion": "Última entrega de la saga del Cementerio de los Libros Olvidados", "precio": 24.99, "stock": 50, "usuario_id": 6, "categoria_id": 5, "requiere_edad": false, "calificacion": 4.7, "creado_en": "2024-03-15T11:30:00Z"},
+    {"id": 7, "nombre": "Set de maquillaje profesional", "descripcion": "Kit completo con sombras, bases y brochas", "precio": 89.99, "stock": 25, "usuario_id": 7, "categoria_id": 6, "requiere_edad": false, "calificacion": 4.4, "creado_en": "2024-03-20T13:15:00Z"},
+    {"id": 8, "nombre": "Drone con cámara HD", "descripcion": "Drone controlado por app con cámara de alta definición", "precio": 299.99, "stock": 12, "usuario_id": 8, "categoria_id": 1, "requiere_edad": false, "calificacion": 4.6, "creado_en": "2024-03-25T10:45:00Z"},
+    {"id": 9, "nombre": "Guitarra acústica", "descripcion": "Guitarra de concierto con cuerdas de nylon", "precio": 159.99, "stock": 8, "usuario_id": 9, "categoria_id": 10, "requiere_edad": false, "calificacion": 4.8, "creado_en": "2024-04-01T09:00:00Z"},
+    {"id": 10, "nombre": "Cama para mascota", "descripcion": "Cama acolchada para perros medianos", "precio": 45.50, "stock": 18, "usuario_id": 10, "categoria_id": 9, "requiere_edad": false, "calificacion": 4.5, "creado_en": "2024-04-05T15:30:00Z"
+    }
+  ],
+  "ProductoImagen": [
+    {"id": 1, "producto_id": 1, "url": "https://example.com/images/smartphone_1.jpg", "es_portada": true},
+    {"id": 2, "producto_id": 1, "url": "https://example.com/images/smartphone_2.jpg", "es_portada": false},
+    {"id": 3, "producto_id": 1, "url": "https://example.com/images/smartphone_3.jpg", "es_portada": false},
+    {"id": 4, "producto_id": 2, "url": "https://example.com/images/jacket_1.jpg", "es_portada": true},
+    {"id": 5, "producto_id": 2, "url": "https://example.com/images/jacket_2.jpg", "es_portada": false},
+    {"id": 6, "producto_id": 3, "url": "https://example.com/images/pans_1.jpg", "es_portada": true},
+    {"id": 7, "producto_id": 4, "url": "https://example.com/images/ball_1.jpg", "es_portada": true},
+    {"id": 8, "producto_id": 5, "url": "https://example.com/images/whisky_1.jpg", "es_portada": true},
+    {"id": 9, "producto_id": 6, "url": "https://example.com/images/book_1.jpg", "es_portada": true},
+    {"id": 10, "producto_id": 7, "url": "https://example.com/images/makeup_1.jpg", "es_portada": true
+    }
+  ],
+  "ProductoAtributo": [
+    {"id": 1, "producto_id": 1, "nombre": "Color", "valor": "Negro"},
+    {"id": 2, "producto_id": 1, "nombre": "Memoria", "valor": "128GB"},
+    {"id": 3, "producto_id": 1, "nombre": "Dual SIM", "valor": "Sí"},
+    {"id": 4, "producto_id": 2, "nombre": "Talla", "valor": "M"},
+    {"id": 5, "producto_id": 2, "nombre": "Color", "valor": "Marrón"},
+    {"id": 6, "producto_id": 3, "nombre": "Material", "valor": "Aluminio"},
+    {"id": 7, "producto_id": 4, "nombre": "Tamaño", "valor": "5"},
+    {"id": 8, "producto_id": 5, "nombre": "Volumen", "valor": "750ml"},
+    {"id": 9, "producto_id": 8, "nombre": "Autonomía", "valor": "30 minutos"},
+    {"id": 10, "producto_id": 9, "nombre": "Tipo", "valor": "Clásica"
+    }
+  ],
+  "Evento": [
+    {"id": 1, "usuario_id": 1, "nombre": "Conferencia de Tecnología", "precio": 50.00, "descripcion": "Última tendencias en tecnología e innovación", "categoria": "Evento", "fecha": "2025-05-15T09:00:00Z", "ubicacion": "Centro de Convenciones, Madrid", "img_evento": "https://example.com/images/events/tech_conference.jpg", "calificacion": 4.6, "creado_en": "2024-03-01T14:30:00Z"},
+    {"id": 2, "usuario_id": 2, "nombre": "Concierto benéfico", "precio": 25.00, "descripcion": "Evento musical solidario para recaudar fondos", "categoria": "Charity", "fecha": "2025-05-20T20:00:00Z", "ubicacion": "Teatro Principal, Barcelona", "img_evento": "https://example.com/images/events/charity_concert.jpg", "calificacion": 4.8, "creado_en": "2024-03-05T11:45:00Z"},
+    {"id": 3, "usuario_id": 3, "nombre": "Tour gastronómico", "precio": 35.00, "descripcion": "Recorrido por los mejores restaurantes de la ciudad", "categoria": "Expirience of the day", "fecha": "2025-05-25T12:00:00Z", "ubicacion": "Casco histórico, Valencia", "img_evento": "https://example.com/images/events/food_tour.jpg", "calificacion": 4.9, "creado_en": "2024-03-10T09:20:00Z"},
+    {"id": 4, "usuario_id": 4, "nombre": "Torneo de videojuegos", "precio": 15.00, "descripcion": "Competición amateur de Fortnite y League of Legends", "categoria": "Gameplay", "fecha": "2025-06-01T16:00:00Z", "ubicacion": "Arena Gaming, Sevilla", "img_evento": "https://example.com/images/events/gaming_tournament.jpg", "calificacion": 4.5, "creado_en": "2024-03-15T16:15:00Z"},
+    {"id": 5, "usuario_id": 5, "nombre": "Workshop de fotografía", "precio": 40.00, "descripcion": "Taller práctico de fotografía urbana", "categoria": "Expirience of the day", "fecha": "2025-06-05T10:00:00Z", "ubicacion": "Estudio Central, Málaga", "img_evento": "https://example.com/images/events/photo_workshop.jpg", "calificacion": 4.7, "creado_en": "2024-03-20T13:30:00Z"},
+    {"id": 6, "usuario_id": 6, "nombre": "Maratón solidaria", "precio": 20.00, "descripcion": "Carrera benéfica de 10km", "categoria": "Charity", "fecha": "2025-06-10T08:00:00Z", "ubicacion": "Parque Central, Bilbao", "img_evento": "https://example.com/images/events/charity_marathon.jpg", "calificacion": 4.4, "creado_en": "2024-03-25T10:45:00Z"},
+    {"id": 7, "usuario_id": 7, "nombre": "Exposición de arte contemporáneo", "precio": 10.00, "descripcion": "Muestra de artistas nacionales emergentes", "categoria": "Evento", "fecha": "2025-06-15T11:00:00Z", "ubicacion": "Galería Moderna, Zaragoza", "img_evento": "https://example.com/images/events/art_exhibition.jpg", "calificacion": 4.6, "creado_en": "2024-04-01T15:20:00Z"},
+    {"id": 8, "usuario_id": 8, "nombre": "Festival de cine independiente", "precio": 30.00, "descripcion": "Proyección de cortometrajes y debate", "categoria": "Evento", "fecha": "2025-06-20T19:00:00Z", "ubicacion": "Cine Clásico, Alicante", "img_evento": "https://example.com/images/events/film_festival.jpg", "calificacion": 4.5, "creado_en": "2024-04-05T12:10:00Z"},
+    {"id": 9, "usuario_id": 9, "nombre": "Streaming de FIFA 25", "precio": 5.00, "descripcion": "Partido online comentado por jugadores profesionales", "categoria": "Gameplay", "fecha": "2025-06-25T21:00:00Z", "ubicacion": "Virtual", "img_evento": "https://example.com/images/events/fifa_stream.jpg", "calificacion": 4.3, "creado_en": "2024-04-10T17:45:00Z"},
+    {"id": 10, "usuario_id": 10, "nombre": "Clase de cocina italiana", "precio": 45.00, "descripcion": "Aprende a preparar pasta fresca y salsas caseras", "categoria": "Expirience of the day", "fecha": "2025-06-30T18:00:00Z", "ubicacion": "Escuela Culinaria, Murcia", "img_evento": "https://example.com/images/events/cooking_class.jpg", "calificacion": 4.9, "creado_en": "2024-04-15T14:30:00Z"
+    }
+  ],
+  "EventoAsistente": [
+    {"id": 1, "evento_id": 1, "usuario_id": 3, "estado": "confirmada", "creado_en": "2024-04-01T10:15:00Z"},
+    {"id": 2, "evento_id": 1, "usuario_id": 5, "estado": "confirmada", "creado_en": "2024-04-02T14:30:00Z"},
+    {"id": 3, "evento_id": 2, "usuario_id": 1, "estado": "pendiente", "creado_en": "2024-04-05T09:45:00Z"},
+    {"id": 4, "evento_id": 2, "usuario_id": 7, "estado": "confirmada", "creado_en": "2024-04-06T16:20:00Z"},
+    {"id": 5, "evento_id": 3, "usuario_id": 2, "estado": "confirmada", "creado_en": "2024-04-10T11:10:00Z"},
+    {"id": 6, "evento_id": 4, "usuario_id": 6, "estado": "cancelada", "creado_en": "2024-04-12T15:40:00Z"},
+    {"id": 7, "evento_id": 5, "usuario_id": 8, "estado": "confirmada", "creado_en": "2024-04-15T13:25:00Z"},
+    {"id": 8, "evento_id": 6, "usuario_id": 9, "estado": "pendiente", "creado_en": "2024-04-18T10:50:00Z"},
+    {"id": 9, "evento_id": 7, "usuario_id": 10, "estado": "confirmada", "creado_en": "2024-04-20T14:15:00Z"},
+    {"id": 10, "evento_id": 8, "usuario_id": 4, "estado": "confirmada", "creado_en": "2024-04-22T17:30:00Z"
+    }
+  ],
+  "Review": [
+    {"id": 1, "producto_id": 1, "evento_id": null, "usuario_id": 3, "calificacion": 5, "comentario": "Excelente smartphone, muy rápido y con una cámara increíble", "creado_en": "2024-03-10T16:45:00Z"},
+    {"id": 2, "producto_id": 1, "evento_id": null, "usuario_id": 5, "calificacion": 4, "comentario": "Buen teléfono, aunque la batería podría durar un poco más", "creado_en": "2024-03-15T09:30:00Z"},
+    {"id": 3, "producto_id": 2, "evento_id": null, "usuario_id": 7, "calificacion": 5, "comentario": "La chaqueta es de excelente calidad, tal como se muestra en las fotos", "creado_en": "2024-03-20T14:15:00Z"},
+    {"id": 4, "producto_id": null, "evento_id": 1, "usuario_id": 2, "calificacion": 4, "comentario": "Conferencia muy interesante con buenos ponentes", "creado_en": "2024-05-16T18:00:00Z"},
+    {"id": 5, "producto_id": null, "evento_id": 1, "usuario_id": 4, "calificacion": 5, "comentario": "Increíble organización y contenido de primer nivel", "creado_en": "2024-05-17T10:30:00Z"},
+    {"id": 6, "producto_id": 5, "evento_id": null, "usuario_id": 8, "calificacion": 5, "comentario": "El mejor whisky que he probado en años", "creado_en": "2024-03-25T20:45:00Z"},
+    {"id": 7, "producto_id": null, "evento_id": 3, "usuario_id": 1, "calificacion": 5, "comentario": "Una experiencia gastronómica inolvidable", "creado_en": "2024-05-26T14:20:00Z"},
+    {"id": 8, "producto_id": 8, "evento_id": null, "usuario_id": 10, "calificacion": 4, "comentario": "El drone funciona muy bien, aunque el control podría ser más intuitivo", "creado_en": "2024-04-05T11:10:00Z"},
+    {"id": 9, "producto_id": null, "evento_id": 5, "usuario_id": 6, "calificacion": 5, "comentario": "Workshop muy completo, aprendí muchísimo", "creado_en": "2024-06-06T16:30:00Z"},
+    {"id": 10, "producto_id": 10, "evento_id": null, "usuario_id": 9, "calificacion": 4, "comentario": "Mi perro está encantado con su nueva cama", "creado_en": "2024-04-15T13:45:00Z"
+    }
+  ],
+  "Amistad": [
+    {"id": 1, "usuario_id": 1, "amigo_id": 2, "estado": "aceptada", "creado_en": "2024-02-15T10:30:00Z"},
+    {"id": 2, "usuario_id": 1, "amigo_id": 3, "estado": "aceptada", "creado_en": "2024-02-20T14:45:00Z"},
+    {"id": 3, "usuario_id": 2, "amigo_id": 4, "estado": "aceptada", "creado_en": "2024-02-25T09:15:00Z"},
+    {"id": 4, "usuario_id": 3, "amigo_id": 5, "estado": "aceptada", "creado_en": "2024-03-01T16:20:00Z"},
+    {"id": 5, "usuario_id": 4, "amigo_id": 6, "estado": "pendiente", "creado_en": "2024-03-05T11:40:00Z"},
+    {"id": 6, "usuario_id": 5, "amigo_id": 7, "estado": "aceptada", "creado_en": "2024-03-10T13:25:00Z"},
+    {"id": 7, "usuario_id": 6, "amigo_id": 8, "estado": "rechazada", "creado_en": "2024-03-15T10:10:00Z"},
+    {"id": 8, "usuario_id": 7, "amigo_id": 9, "estado": "aceptada", "creado_en": "2024-03-20T15:55:00Z"},
+    {"id": 9, "usuario_id": 8, "amigo_id": 10, "estado": "pendiente", "creado_en": "2024-03-25T12:30:00Z"},
+    {"id": 10, "usuario_id": 9, "amigo_id": 1, "estado": "aceptada", "creado_en": "2024-04-01T09:45:00Z"
+    }
+  ],
+  "Orden": [
+    {"id": 1, "usuario_id": 3, "estado": "completado", "total": 150.00, "creado_en": "2025-04-01T10:23:00"},
+    {"id": 2, "usuario_id": 5, "estado": "pendiente", "total": 80.50, "creado_en": "2025-04-03T14:05:00"},
+    {"id": 3, "usuario_id": 1, "estado": "cancelado", "total": 0.00, "creado_en": "2025-04-04T09:00:00"},
+    {"id": 4, "usuario_id": 7, "estado": "completado", "total": 210.75, "creado_en": "2025-04-05T16:15:00"},
+    {"id": 5, "usuario_id": 2, "estado": "completado", "total": 65.00, "creado_en": "2025-04-06T11:30:00"},
+    {"id": 6, "usuario_id": 4, "estado": "pendiente", "total": 99.99, "creado_en": "2025-04-07T18:45:00"},
+    {"id": 7, "usuario_id": 8, "estado": "en_proceso", "total": 120.00, "creado_en": "2025-04-08T13:20:00"},
+    {"id": 8, "usuario_id": 6, "estado": "completado", "total": 45.50, "creado_en": "2025-04-10T09:50:00"},
+    {"id": 9, "usuario_id": 10, "estado": "cancelado", "total": 0.00, "creado_en": "2025-04-11T12:00:00"},
+    {"id": 10, "usuario_id": 9, "estado": "completado", "total": 185.25, "creado_en": "2025-04-12T17:10:00"}
+  ],
+  "OrdenDetalle": [
+    {"id": 1, "orden_id": 1, "producto_id": 2, "evento_id": null, "cantidad": 2, "precio_unit": 30.00},
+    {"id": 2, "orden_id": 2, "producto_id": null, "evento_id": 1, "cantidad": 1, "precio_unit": 80.50},
+    {"id": 3, "orden_id": 4, "producto_id": 3, "evento_id": null, "cantidad": 5, "precio_unit": 42.15},
+    {"id": 4, "orden_id": 5, "producto_id": 5, "evento_id": null, "cantidad": 1, "precio_unit": 65.00},
+    {"id": 5, "orden_id": 6, "producto_id": null, "evento_id": 2, "cantidad": 2, "precio_unit": 49.99},
+    {"id": 6, "orden_id": 7, "producto_id": 7, "evento_id": null, "cantidad": 3, "precio_unit": 40.00},
+    {"id": 7, "orden_id": 8, "producto_id": null, "evento_id": 3, "cantidad": 1, "precio_unit": 45.50},
+    {"id": 8, "orden_id": 10, "producto_id": 9, "evento_id": null, "cantidad": 3, "precio_unit": 61.75},
+    {"id": 9, "orden_id": 10, "producto_id": 6, "evento_id": null, "cantidad": 1, "precio_unit": 0.00},
+    {"id": 10, "orden_id": 7, "producto_id": null, "evento_id": 4, "cantidad": 1, "precio_unit": 60.00}
+  ],
+  "Compartido": [
+    {"id": 1, "usuario_id": 1, "producto_id": 3, "evento_id": null, "amigo_id": 5, "mensaje": "¡Te recomiendo este producto!", "creado_en": "2025-04-01T09:00:00"},
+    {"id": 2, "usuario_id": 2, "producto_id": null, "evento_id": 1, "amigo_id": 4, "mensaje": "Este evento te va a encantar.", "creado_en": "2025-04-02T12:15:00"},
+    {"id": 3, "usuario_id": 3, "producto_id": 7, "evento_id": null, "amigo_id": 6, "mensaje": "Mira esto que compré.", "creado_en": "2025-04-03T08:30:00"},
+    {"id": 4, "usuario_id": 4, "producto_id": null, "evento_id": 3, "amigo_id": 2, "mensaje": "Nos vemos ahí, ¿no?", "creado_en": "2025-04-04T15:40:00"},
+    {"id": 5, "usuario_id": 5, "producto_id": 1, "evento_id": null, "amigo_id": 1, "mensaje": "Está buenísimo.", "creado_en": "2025-04-05T11:00:00"},
+    {"id": 6, "usuario_id": 6, "producto_id": null, "evento_id": 2, "amigo_id": 9, "mensaje": "Deberías asistir.", "creado_en": "2025-04-06T17:25:00"},
+    {"id": 7, "usuario_id": 7, "producto_id": 8, "evento_id": null, "amigo_id": 10, "mensaje": "Me encantó, pruébalo.", "creado_en": "2025-04-07T10:50:00"},
+    {"id": 8, "usuario_id": 8, "producto_id": null, "evento_id": 5, "amigo_id": 3, "mensaje": "Va a estar buenísimo.", "creado_en": "2025-04-08T13:35:00"},
+    {"id": 9, "usuario_id": 9, "producto_id": 4, "evento_id": null, "amigo_id": 7, "mensaje": "Te va a gustar este producto.", "creado_en": "2025-04-09T19:10:00"},
+    {"id": 10, "usuario_id": 10, "producto_id": null, "evento_id": 4, "amigo_id": 8, "mensaje": "Vamos juntos.", "creado_en": "2025-04-10T16:00:00"}
+  ]
+}

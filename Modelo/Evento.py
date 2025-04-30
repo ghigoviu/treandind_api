@@ -19,9 +19,9 @@ class Evento(Base):
     creado_en = Column(DateTime, default=func.now(), nullable=False)
 
     # Relación
-    usuario = relationship("Usuario", backref="eventos")
+    usuario = relationship("Usuario", back_populates="eventos")
 
-    def __init__(self, usuario_id, titulo, nombre, precio, descripcion, categoria, fecha, ubicacion, img_evento=None, calificacion=0.0):
+    def __init__(self, usuario_id, nombre, precio, descripcion, categoria, fecha, ubicacion, img_evento=None, calificacion=0.0):
         self.usuario_id = usuario_id
         self.nombre = nombre
         self.precio = precio

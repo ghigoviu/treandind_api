@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from Modelo import Compartido, Amistad
+from Modelo.Compartido import Compartido
+from Modelo.Amistad import Amistad
 from fastapi import HTTPException, status
 
 

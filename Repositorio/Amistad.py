@@ -1,11 +1,16 @@
 from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from starlette.exceptions import HTTPException
+from typing import List
 
 from Modelo.Amistad import Amistad
 
 
 class AmistadRepo:
+
+    @staticmethod
+    def fetch_all(db: Session, skip: int = 0, limit: int = 100) -> List[Amistad]:
+        return db.query(Amistad).offset(skip).limit(limit).all()
 
     @staticmethod
     def existe_amistad(db: Session, usuario_id: int, amigo_id: int) -> bool:

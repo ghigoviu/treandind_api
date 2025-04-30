@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session, joinedload
-from Modelo import Evento
+from Modelo.Evento import Evento
 from typing import List, Optional
 
 from Modelo.EventoAsistente import EventoAsistente

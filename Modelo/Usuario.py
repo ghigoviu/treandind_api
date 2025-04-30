@@ -16,6 +16,8 @@ class Usuario(Base):
 
     amistades_enviadas = relationship("Amistad", foreign_keys='Amistad.usuario_id', back_populates="usuario")
     amistades_recibidas = relationship("Amistad", foreign_keys='Amistad.amigo_id', back_populates="amigo")
+    compartidos = relationship("Compartido", foreign_keys='Compartido.usuario_id')
+    eventos = relationship("Evento", back_populates="usuario")
 
     def __init__(self, nombre, email, password, imagen_perfil=None):
         self.nombre = nombre

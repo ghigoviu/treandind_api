@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from Modelo.Usuario import Usuario
-from typing import List, Optional
+from typing import List, Optional, Type
 
 
 class UsuarioRepo:
@@ -13,7 +13,7 @@ class UsuarioRepo:
         return db.query(Usuario).filter(Usuario.email == email).first()
 
     @staticmethod
-    def fetch_all(db: Session, skip: int = 0, limit: int = 100) -> List[Usuario]:
+    def fetch_all(db: Session, skip: int = 0, limit: int = 100) -> list[Type[Usuario]]:
         return db.query(Usuario).offset(skip).limit(limit).all()
 
     @staticmethod

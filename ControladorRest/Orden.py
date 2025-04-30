@@ -19,7 +19,7 @@ class OrdenRest:
 
     @router.get("/", response_model=List[OrdenRead])
     def get_all_ordenes(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-        return OrdenRepo.fetch_all(db, skip=skip, limit=limit)
+        return OrdenRepo.fetch_all(db)
 
     @router.get("/{orden_id}", response_model=OrdenRead)
     def get_orden_by_id(orden_id: int, db: Session = Depends(get_db)):

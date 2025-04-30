@@ -1,5 +1,5 @@
 show tables;
-desc usuarios ;
+desc usuarios;
 create database if not exists plexoweb_treanding_dev;
 
 use plexoweb_treanding_dev;
