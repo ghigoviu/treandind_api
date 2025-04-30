@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.platform.app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/Bulk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Categoria.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Compartido.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Evento.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Orden.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Producto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Review.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Usuario.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/model.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControladorRest/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControladorRest/Compartido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Evento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Evento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/Orden.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Orden.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

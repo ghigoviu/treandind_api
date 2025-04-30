@@ -1,0 +1,14 @@
+{
+  "Compartido": [
+      {"id": 1, "usuario_id": 1, "producto_id": 3, "evento_id": null, "amigo_id": 5, "mensaje": "¡Te recomiendo este producto!", "creado_en": "2025-04-01T09:00:00"},
+      {"id": 2, "usuario_id": 2, "producto_id": null, "evento_id": 1, "amigo_id": 4, "mensaje": "Este evento te va a encantar.", "creado_en": "2025-04-02T12:15:00"},
+      {"id": 3, "usuario_id": 3, "producto_id": 7, "evento_id": null, "amigo_id": 6, "mensaje": "Mira esto que compré.", "creado_en": "2025-04-03T08:30:00"},
+      {"id": 4, "usuario_id": 4, "producto_id": null, "evento_id": 3, "amigo_id": 2, "mensaje": "Nos vemos ahí, ¿no?", "creado_en": "2025-04-04T15:40:00"},
+      {"id": 5, "usuario_id": 5, "producto_id": 1, "evento_id": null, "amigo_id": 1, "mensaje": "Está buenísimo.", "creado_en": "2025-04-05T11:00:00"},
+      {"id": 6, "usuario_id": 6, "producto_id": null, "evento_id": 2, "amigo_id": 9, "mensaje": "Deberías asistir.", "creado_en": "2025-04-06T17:25:00"},
+      {"id": 7, "usuario_id": 7, "producto_id": 8, "evento_id": null, "amigo_id": 10, "mensaje": "Me encantó, pruébalo.", "creado_en": "2025-04-07T10:50:00"},
+      {"id": 8, "usuario_id": 8, "producto_id": null, "evento_id": 5, "amigo_id": 3, "mensaje": "Va a estar buenísimo.", "creado_en": "2025-04-08T13:35:00"},
+      {"id": 9, "usuario_id": 9, "producto_id": 4, "evento_id": null, "amigo_id": 7, "mensaje": "Te va a gustar este producto.", "creado_en": "2025-04-09T19:10:00"},
+      {"id": 10, "usuario_id": 10, "producto_id": null, "evento_id": 4, "amigo_id": 8, "mensaje": "Vamos juntos.", "creado_en": "2025-04-10T16:00:00"}
+  ]
+}

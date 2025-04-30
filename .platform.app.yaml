@@ -1,0 +1,11 @@
+type: 'python:3.12.2'
+web:
+    commands:
+        start: "uvicorn myapp.asgi:application --port $PORT --workers 4"
+    locations:
+        "/":
+            passthru: true
+        "/static":
+            root: "static"
+            expires: 1h
+            allow: true

@@ -1,0 +1,94 @@
+{
+  "Review": [
+    {
+      "id": 1,
+      "producto_id": 1,
+      "evento_id": null,
+      "usuario_id": 3,
+      "calificacion": 5,
+      "comentario": "Excelente smartphone, muy rápido y con una cámara increíble",
+      "creado_en": "2024-03-10T16:45:00Z"
+    },
+    {
+      "id": 2,
+      "producto_id": 1,
+      "evento_id": null,
+      "usuario_id": 5,
+      "calificacion": 4,
+      "comentario": "Buen teléfono, aunque la batería podría durar un poco más",
+      "creado_en": "2024-03-15T09:30:00Z"
+    },
+    {
+      "id": 3,
+      "producto_id": 2,
+      "evento_id": null,
+      "usuario_id": 7,
+      "calificacion": 5,
+      "comentario": "La chaqueta es de excelente calidad, tal como se muestra en las fotos",
+      "creado_en": "2024-03-20T14:15:00Z"
+    },
+    {
+      "id": 4,
+      "producto_id": null,
+      "evento_id": 1,
+      "usuario_id": 2,
+      "calificacion": 4,
+      "comentario": "Conferencia muy interesante con buenos ponentes",
+      "creado_en": "2024-05-16T18:00:00Z"
+    },
+    {
+      "id": 5,
+      "producto_id": null,
+      "evento_id": 1,
+      "usuario_id": 4,
+      "calificacion": 5,
+      "comentario": "Increíble organización y contenido de primer nivel",
+      "creado_en": "2024-05-17T10:30:00Z"
+    },
+    {
+      "id": 6,
+      "producto_id": 5,
+      "evento_id": null,
+      "usuario_id": 8,
+      "calificacion": 5,
+      "comentario": "El mejor whisky que he probado en años",
+      "creado_en": "2024-03-25T20:45:00Z"
+    },
+    {
+      "id": 7,
+      "producto_id": null,
+      "evento_id": 3,
+      "usuario_id": 1,
+      "calificacion": 5,
+      "comentario": "Una experiencia gastronómica inolvidable",
+      "creado_en": "2024-05-26T14:20:00Z"
+    },
+    {
+      "id": 8,
+      "producto_id": 8,
+      "evento_id": null,
+      "usuario_id": 10,
+      "calificacion": 4,
+      "comentario": "El drone funciona muy bien, aunque el control podría ser más intuitivo",
+      "creado_en": "2024-04-05T11:10:00Z"
+    },
+    {
+      "id": 9,
+      "producto_id": null,
+      "evento_id": 5,
+      "usuario_id": 6,
+      "calificacion": 5,
+      "comentario": "Workshop muy completo, aprendí muchísimo",
+      "creado_en": "2024-06-06T16:30:00Z"
+    },
+    {
+      "id": 10,
+      "producto_id": 10,
+      "evento_id": null,
+      "usuario_id": 9,
+      "calificacion": 4,
+      "comentario": "Mi perro está encantado con su nueva cama",
+      "creado_en": "2024-04-15T13:45:00Z"
+    }
+  ]
+}

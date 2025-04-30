@@ -1,0 +1,27 @@
+{
+  "Orden": [
+      {"id": 1, "usuario_id": 3, "estado": "completado", "total": 150.00, "creado_en": "2025-04-01T10:23:00"},
+      {"id": 2, "usuario_id": 5, "estado": "pendiente", "total": 80.50, "creado_en": "2025-04-03T14:05:00"},
+      {"id": 3, "usuario_id": 1, "estado": "cancelado", "total": 0.00, "creado_en": "2025-04-04T09:00:00"},
+      {"id": 4, "usuario_id": 7, "estado": "completado", "total": 210.75, "creado_en": "2025-04-05T16:15:00"},
+      {"id": 5, "usuario_id": 2, "estado": "completado", "total": 65.00, "creado_en": "2025-04-06T11:30:00"},
+      {"id": 6, "usuario_id": 4, "estado": "pendiente", "total": 99.99, "creado_en": "2025-04-07T18:45:00"},
+      {"id": 7, "usuario_id": 8, "estado": "en_proceso", "total": 120.00, "creado_en": "2025-04-08T13:20:00"},
+      {"id": 8, "usuario_id": 6, "estado": "completado", "total": 45.50, "creado_en": "2025-04-10T09:50:00"},
+      {"id": 9, "usuario_id": 10, "estado": "cancelado", "total": 0.00, "creado_en": "2025-04-11T12:00:00"},
+      {"id": 10, "usuario_id": 9, "estado": "completado", "total": 185.25, "creado_en": "2025-04-12T17:10:00"}
+  ],
+
+  "OrdenDetalle": [
+      {"id": 1, "orden_id": 1, "producto_id": 2, "evento_id": null, "cantidad": 2, "precio_unit": 30.00},
+      {"id": 2, "orden_id": 2, "producto_id": null, "evento_id": 1, "cantidad": 1, "precio_unit": 80.50},
+      {"id": 3, "orden_id": 4, "producto_id": 3, "evento_id": null, "cantidad": 5, "precio_unit": 42.15},
+      {"id": 4, "orden_id": 5, "producto_id": 5, "evento_id": null, "cantidad": 1, "precio_unit": 65.00},
+      {"id": 5, "orden_id": 6, "producto_id": null, "evento_id": 2, "cantidad": 2, "precio_unit": 49.99},
+      {"id": 6, "orden_id": 7, "producto_id": 7, "evento_id": null, "cantidad": 3, "precio_unit": 40.00},
+      {"id": 7, "orden_id": 8, "producto_id": null, "evento_id": 3, "cantidad": 1, "precio_unit": 45.50},
+      {"id": 8, "orden_id": 10, "producto_id": 9, "evento_id": null, "cantidad": 3, "precio_unit": 61.75},
+      {"id": 9, "orden_id": 10, "producto_id": 6, "evento_id": null, "cantidad": 1, "precio_unit": 0.00},
+      {"id": 10, "orden_id": 7, "producto_id": null, "evento_id": 4, "cantidad": 1, "precio_unit": 60.00}
+  ]
+}

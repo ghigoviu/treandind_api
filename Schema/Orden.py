@@ -38,7 +38,7 @@ class OrdenRead(BaseModel):
     usuario_id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class OrdenDetalleRead(BaseModel):
@@ -49,4 +49,4 @@ class OrdenDetalleRead(BaseModel):
     precio_unitario: float
 
     class Config:
-        orm_mode = True
+        from_attributes = True

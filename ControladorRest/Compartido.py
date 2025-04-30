@@ -7,7 +7,7 @@ from Schema.Compartido import CompartidoUpdate, CompartidoRead, CompartidoCreate
 from ControladorRest import get_db
 
 
-class CompartidoController:
+class CompartidoRest:
     router = APIRouter(prefix="/compartidos", tags=["Compartidos"])
 
     @router.get("/", response_model=List[CompartidoRead])

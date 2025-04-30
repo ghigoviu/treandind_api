@@ -1,0 +1,40 @@
+{
+  "Producto": [
+    {"id": 1, "nombre": "Smartphone Galaxy S20", "descripcion": "Teléfono móvil de alta gama con cámara de 64MP", "precio": 699.99, "stock": 45, "usuario_id": 1, "categoria_id": 1, "requiere_edad": false, "calificacion": 4.7, "creado_en": "2024-02-25T10:00:00Z"},
+    {"id": 2, "nombre": "Chaqueta de cuero", "descripcion": "Chaqueta de cuero genuino para hombre", "precio": 189.99, "stock": 20, "usuario_id": 2, "categoria_id": 2, "requiere_edad": false, "calificacion": 4.5, "creado_en": "2024-02-26T11:15:00Z"},
+    {"id": 3, "nombre": "Juego de sartenes antiadherentes", "descripcion": "Set de 3 sartenes con revestimiento cerámico", "precio": 75.50, "stock": 15, "usuario_id": 3, "categoria_id": 3, "requiere_edad": false, "calificacion": 4.8, "creado_en": "2024-03-01T09:30:00Z"},
+    {"id": 4, "nombre": "Balón de fútbol profesional", "descripcion": "Balón oficial de competición", "precio": 49.99, "stock": 30, "usuario_id": 4, "categoria_id": 4, "requiere_edad": false, "calificacion": 4.6, "creado_en": "2024-03-05T14:20:00Z"},
+    {"id": 5, "nombre": "Whisky Premium", "descripcion": "Whisky escocés añejado 18 años", "precio": 120.00, "stock": 10, "usuario_id": 5, "categoria_id": 8, "requiere_edad": true, "calificacion": 4.9, "creado_en": "2024-03-10T16:45:00Z"},
+    {"id": 6, "nombre": "Novela 'El laberinto de los espíritus'", "descripcion": "Última entrega de la saga del Cementerio de los Libros Olvidados", "precio": 24.99, "stock": 50, "usuario_id": 6, "categoria_id": 5, "requiere_edad": false, "calificacion": 4.7, "creado_en": "2024-03-15T11:30:00Z"},
+    {"id": 7, "nombre": "Set de maquillaje profesional", "descripcion": "Kit completo con sombras, bases y brochas", "precio": 89.99, "stock": 25, "usuario_id": 7, "categoria_id": 6, "requiere_edad": false, "calificacion": 4.4, "creado_en": "2024-03-20T13:15:00Z"},
+    {"id": 8, "nombre": "Drone con cámara HD", "descripcion": "Drone controlado por app con cámara de alta definición", "precio": 299.99, "stock": 12, "usuario_id": 8, "categoria_id": 1, "requiere_edad": false, "calificacion": 4.6, "creado_en": "2024-03-25T10:45:00Z"},
+    {"id": 9, "nombre": "Guitarra acústica", "descripcion": "Guitarra de concierto con cuerdas de nylon", "precio": 159.99, "stock": 8, "usuario_id": 9, "categoria_id": 10, "requiere_edad": false, "calificacion": 4.8, "creado_en": "2024-04-01T09:00:00Z"},
+    {"id": 10, "nombre": "Cama para mascota", "descripcion": "Cama acolchada para perros medianos", "precio": 45.50, "stock": 18, "usuario_id": 10, "categoria_id": 9, "requiere_edad": false, "calificacion": 4.5, "creado_en": "2024-04-05T15:30:00Z"}
+  ],
+
+  "ProductoImagen": [
+    {"id": 1, "producto_id": 1, "url": "https://example.com/images/smartphone_1.jpg", "es_portada": true},
+    {"id": 2, "producto_id": 1, "url": "https://example.com/images/smartphone_2.jpg", "es_portada": false},
+    {"id": 3, "producto_id": 1, "url": "https://example.com/images/smartphone_3.jpg", "es_portada": false},
+    {"id": 4, "producto_id": 2, "url": "https://example.com/images/jacket_1.jpg", "es_portada": true},
+    {"id": 5, "producto_id": 2, "url": "https://example.com/images/jacket_2.jpg", "es_portada": false},
+    {"id": 6, "producto_id": 3, "url": "https://example.com/images/pans_1.jpg", "es_portada": true},
+    {"id": 7, "producto_id": 4, "url": "https://example.com/images/ball_1.jpg", "es_portada": true},
+    {"id": 8, "producto_id": 5, "url": "https://example.com/images/whisky_1.jpg", "es_portada": true},
+    {"id": 9, "producto_id": 6, "url": "https://example.com/images/book_1.jpg", "es_portada": true},
+    {"id": 10, "producto_id": 7, "url": "https://example.com/images/makeup_1.jpg", "es_portada": true}
+  ],
+
+  "ProductoAtributo": [
+    {"id": 1, "producto_id": 1, "nombre": "Color", "valor": "Negro"},
+    {"id": 2, "producto_id": 1, "nombre": "Memoria", "valor": "128GB"},
+    {"id": 3, "producto_id": 1, "nombre": "Dual SIM", "valor": "Sí"},
+    {"id": 4, "producto_id": 2, "nombre": "Talla", "valor": "M"},
+    {"id": 5, "producto_id": 2, "nombre": "Color", "valor": "Marrón"},
+    {"id": 6, "producto_id": 3, "nombre": "Material", "valor": "Aluminio"},
+    {"id": 7, "producto_id": 4, "nombre": "Tamaño", "valor": "5"},
+    {"id": 8, "producto_id": 5, "nombre": "Volumen", "valor": "750ml"},
+    {"id": 9, "producto_id": 8, "nombre": "Autonomía", "valor": "30 minutos"},
+    {"id": 10, "producto_id": 9, "nombre": "Tipo", "valor": "Clásica"}
+  ]
+}

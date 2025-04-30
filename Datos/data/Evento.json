@@ -1,0 +1,28 @@
+{
+  "Evento": [
+    {"id": 1, "usuario_id": 1, "nombre": "Conferencia de Tecnología", "precio": 50.00, "descripcion": "Última tendencias en tecnología e innovación", "categoria": "Evento", "fecha": "2025-05-15T09:00:00Z", "ubicacion": "Centro de Convenciones, Madrid", "img_evento": "https://example.com/images/events/tech_conference.jpg", "calificacion": 4.6, "creado_en": "2024-03-01T14:30:00Z"},
+    {"id": 2, "usuario_id": 2, "nombre": "Concierto benéfico", "precio": 25.00, "descripcion": "Evento musical solidario para recaudar fondos", "categoria": "Charity", "fecha": "2025-05-20T20:00:00Z", "ubicacion": "Teatro Principal, Barcelona", "img_evento": "https://example.com/images/events/charity_concert.jpg", "calificacion": 4.8, "creado_en": "2024-03-05T11:45:00Z"},
+    {"id": 3, "usuario_id": 3, "nombre": "Tour gastronómico", "precio": 35.00, "descripcion": "Recorrido por los mejores restaurantes de la ciudad", "categoria": "Expirience of the day", "fecha": "2025-05-25T12:00:00Z", "ubicacion": "Casco histórico, Valencia", "img_evento": "https://example.com/images/events/food_tour.jpg", "calificacion": 4.9, "creado_en": "2024-03-10T09:20:00Z"},
+    {"id": 4, "usuario_id": 4, "nombre": "Torneo de videojuegos", "precio": 15.00, "descripcion": "Competición amateur de Fortnite y League of Legends", "categoria": "Gameplay", "fecha": "2025-06-01T16:00:00Z", "ubicacion": "Arena Gaming, Sevilla", "img_evento": "https://example.com/images/events/gaming_tournament.jpg", "calificacion": 4.5, "creado_en": "2024-03-15T16:15:00Z"},
+    {"id": 5, "usuario_id": 5, "nombre": "Workshop de fotografía", "precio": 40.00, "descripcion": "Taller práctico de fotografía urbana", "categoria": "Expirience of the day", "fecha": "2025-06-05T10:00:00Z", "ubicacion": "Estudio Central, Málaga", "img_evento": "https://example.com/images/events/photo_workshop.jpg", "calificacion": 4.7, "creado_en": "2024-03-20T13:30:00Z"},
+    {"id": 6, "usuario_id": 6, "nombre": "Maratón solidaria", "precio": 20.00, "descripcion": "Carrera benéfica de 10km", "categoria": "Charity", "fecha": "2025-06-10T08:00:00Z", "ubicacion": "Parque Central, Bilbao", "img_evento": "https://example.com/images/events/charity_marathon.jpg", "calificacion": 4.4, "creado_en": "2024-03-25T10:45:00Z"},
+    {"id": 7, "usuario_id": 7, "nombre": "Exposición de arte contemporáneo", "precio": 10.00, "descripcion": "Muestra de artistas nacionales emergentes", "categoria": "Evento", "fecha": "2025-06-15T11:00:00Z", "ubicacion": "Galería Moderna, Zaragoza", "img_evento": "https://example.com/images/events/art_exhibition.jpg", "calificacion": 4.6, "creado_en": "2024-04-01T15:20:00Z"},
+    {"id": 8, "usuario_id": 8, "nombre": "Festival de cine independiente", "precio": 30.00, "descripcion": "Proyección de cortometrajes y debate", "categoria": "Evento", "fecha": "2025-06-20T19:00:00Z", "ubicacion": "Cine Clásico, Alicante", "img_evento": "https://example.com/images/events/film_festival.jpg", "calificacion": 4.5, "creado_en": "2024-04-05T12:10:00Z"},
+    {"id": 9, "usuario_id": 9, "nombre": "Streaming de FIFA 25", "precio": 5.00, "descripcion": "Partido online comentado por jugadores profesionales", "categoria": "Gameplay", "fecha": "2025-06-25T21:00:00Z", "ubicacion": "Virtual", "img_evento": "https://example.com/images/events/fifa_stream.jpg", "calificacion": 4.3, "creado_en": "2024-04-10T17:45:00Z"},
+    {"id": 10, "usuario_id": 10, "nombre": "Clase de cocina italiana", "precio": 45.00, "descripcion": "Aprende a preparar pasta fresca y salsas caseras", "categoria": "Expirience of the day", "fecha": "2025-06-30T18:00:00Z", "ubicacion": "Escuela Culinaria, Murcia", "img_evento": "https://example.com/images/events/cooking_class.jpg", "calificacion": 4.9, "creado_en": "2024-04-15T14:30:00Z"}
+  ],
+
+  "EventoAsistente": [
+    {"id": 1, "evento_id": 1, "usuario_id": 3, "estado": "confirmada", "creado_en": "2024-04-01T10:15:00Z"},
+    {"id": 2, "evento_id": 1, "usuario_id": 5, "estado": "confirmada", "creado_en": "2024-04-02T14:30:00Z"},
+    {"id": 3, "evento_id": 2, "usuario_id": 1, "estado": "pendiente", "creado_en": "2024-04-05T09:45:00Z"},
+    {"id": 4, "evento_id": 2, "usuario_id": 7, "estado": "confirmada", "creado_en": "2024-04-06T16:20:00Z"},
+    {"id": 5, "evento_id": 3, "usuario_id": 2, "estado": "confirmada", "creado_en": "2024-04-10T11:10:00Z"},
+    {"id": 6, "evento_id": 4, "usuario_id": 6, "estado": "cancelada", "creado_en": "2024-04-12T15:40:00Z"},
+    {"id": 7, "evento_id": 5, "usuario_id": 8, "estado": "confirmada", "creado_en": "2024-04-15T13:25:00Z"},
+    {"id": 8, "evento_id": 6, "usuario_id": 9, "estado": "pendiente", "creado_en": "2024-04-18T10:50:00Z"},
+    {"id": 9, "evento_id": 7, "usuario_id": 10, "estado": "confirmada", "creado_en": "2024-04-20T14:15:00Z"},
+    {"id": 10, "evento_id": 8, "usuario_id": 4, "estado": "confirmada", "creado_en": "2024-04-22T17:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Categoria": [
+    {"id": 1, "nombre": "Electrónica", "descripcion": "Dispositivos y accesorios electrónicos"},
+    {"id": 2, "nombre": "Ropa", "descripcion": "Prendas y accesorios de vestir"},
+    {"id": 3, "nombre": "Hogar", "descripcion": "Artículos para el hogar y decoración"},
+    {"id": 4, "nombre": "Deportes", "descripcion": "Equipamiento e indumentaria deportiva"},
+    {"id": 5, "nombre": "Libros", "descripcion": "Libros físicos y digitales"},
+    {"id": 6, "nombre": "Belleza", "descripcion": "Productos de cuidado personal y cosmética"},
+    {"id": 7, "nombre": "Juguetes", "descripcion": "Juguetes para niños de todas las edades"},
+    {"id": 8, "nombre": "Alimentos", "descripcion": "Productos alimenticios no perecederos"},
+    {"id": 9, "nombre": "Mascotas", "descripcion": "Artículos para animales domésticos"},
+    {"id": 10, "nombre": "Música", "descripcion": "Instrumentos y accesorios musicales"}
+  ]
+}

@@ -1,0 +1,57 @@
++-------------+         +-------------+         +-------------+
+|   Usuario   |         |  Producto   |         |  Categoría  |
++-------------+         +-------------+         +-------------+
+| id (PK)     |         | id (PK)     |         | id (PK)     |
+| nombre      |         | nombre      |         | nombre      |
+| email       |<------+ | descripcion |         | descripcion |
+| password    |       | | precio      |         +-------------+
+| imagen_perfil|       | | stock      |               ^
+| creado_en   |       | | usuario_id  |-+             |
++-------------+       | | categoria_id|-+-------------+
+     ^  ^             | | requiere_edad|
+     |  |             | | calificacion |
+     |  |             | | creado_en   |
+     |  |             | +-------------+
++----+  |             |        ^
+|       |             |        |
+|       |             |  +-----+---------+
+|       |             |  |               |
++-------------+       |  +-------------+ |     +-------------+
+|   Amistad   |       |  |ProductoImagen| |     |ProductoAtributo|
++-------------+       |  +-------------+ |     +-------------+
+| id (PK)     |       |  | id (PK)    | |     | id (PK)     |
+| usuario_id  |-------+  | producto_id|-+     | producto_id |
+| amigo_id    |-------+  | url        |       | nombre      |
+| estado      |          | es_portada |       | valor       |
+| creado_en   |          +-------------+       +-------------+
++-------------+
+
++-------------+         +-------------+         +-------------+
+|   Review    |         |    Orden   |          | OrdenDetalle|
++-------------+         +-------------+         +-------------+
+| id (PK)     |         | id (PK)    |          | id (PK)     |
+| producto_id |<-+      | usuario_id |---+      | orden_id    |
+| evento_id   |<-|---+  | estado     |   |      | producto_id |
+| usuario_id  |--|---+  | total      |   |      | evento_id   |
+| calificacion|  |   |  | creado_en  |   |      | cantidad    |
+| comentario  |  |   |  +-------------+   |      | precio_unit |
+| creado_en   |  |   |        ^           |      +-------------+
++-------------+  |   |        |           |             ^
+                 |   |        |           |             |
+                 |   |        |           +-------------+
+                 |   |        |
++-------------+  |   |  +-------------+         +-------------+
+|   Evento    |  |   |  | Compartido  |         |EventoAsistente|
++-------------+  |   |  +-------------+         +-------------+
+| id (PK)     |--+   |  | id (PK)     |         | id (PK)     |
+| usuario_id  |------+  | usuario_id  |         | evento_id   |
+| nombre      |         | producto_id |--+      | usuario_id  |
+| precio      |         | evento_id   |--+--+   | estado      |
+| descripcion |         | amigo_id    |  |  |   | creado_en   |
+| categoria   |         | mensaje     |  |  |   +-------------+
+| fecha       |         | creado_en   |  |  |
+| ubicacion   |         +-------------+  |  |
+| img_evento  |                          |  |
+| calificacion|<-------------------------+  |
+| creado_en   |<----------------------------+
++-------------+
