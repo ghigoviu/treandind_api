@@ -24,8 +24,11 @@ class AmistadUpdate(BaseModel):
     estado: Optional[str]
 
 
-class AmistadRead(AmistadBase):
+class AmistadRead(BaseModel):
     id: int
+    usuario_id: int
+    amigo_id: int
+    estado: Optional[str] = "pendiente"
     creado_en: datetime
 
     class Config:

@@ -1,27 +1,27 @@
 {
-  "Usuario": [
-    {"id": 1, "nombre": "Carlos Mendoza", "email": "carlos@example.com", "password": "hash_password_1", "imagen_perfil": "https://randomuser.me/api/portraits/men/1.jpg", "creado_en": "2024-01-10T14:30:00Z"},
-    {"id": 2, "nombre": "Ana Gómez", "email": "ana@example.com", "password": "hash_password_2", "imagen_perfil": "https://randomuser.me/api/portraits/women/2.jpg", "creado_en": "2024-01-12T08:45:00Z"},
-    {"id": 3, "nombre": "Miguel Torres", "email": "miguel@example.com", "password": "hash_password_3", "imagen_perfil": "https://randomuser.me/api/portraits/men/3.jpg", "creado_en": "2024-01-15T11:20:00Z"},
-    {"id": 4, "nombre": "Laura Martínez", "email": "laura@example.com", "password": "hash_password_4", "imagen_perfil": "https://randomuser.me/api/portraits/women/4.jpg", "creado_en": "2024-01-20T16:15:00Z"},
-    {"id": 5, "nombre": "Pedro Sánchez", "email": "pedro@example.com", "password": "hash_password_5", "imagen_perfil": "https://randomuser.me/api/portraits/men/5.jpg", "creado_en": "2024-01-25T09:30:00Z"},
-    {"id": 6, "nombre": "Sofía Rodríguez", "email": "sofia@example.com", "password": "hash_password_6", "imagen_perfil": "https://randomuser.me/api/portraits/women/6.jpg", "creado_en": "2024-02-01T13:45:00Z"},
-    {"id": 7, "nombre": "Lucas García", "email": "lucas@example.com", "password": "hash_password_7", "imagen_perfil": "https://randomuser.me/api/portraits/men/7.jpg", "creado_en": "2024-02-05T10:20:00Z"},
-    {"id": 8, "nombre": "Valentina Díaz", "email": "valentina@example.com", "password": "hash_password_8", "imagen_perfil": "https://randomuser.me/api/portraits/women/8.jpg", "creado_en": "2024-02-10T15:10:00Z"},
-    {"id": 9, "nombre": "Diego López", "email": "diego@example.com", "password": "hash_password_9", "imagen_perfil": "https://randomuser.me/api/portraits/men/9.jpg", "creado_en": "2024-02-15T08:30:00Z"},
-    {"id": 10, "nombre": "Camila Pérez", "email": "camila@example.com", "password": "hash_password_10", "imagen_perfil": "https://randomuser.me/api/portraits/women/10.jpg", "creado_en": "2024-02-20T12:00:00Z"}
-  ],
+    "Usuario": [
+      {"id": 1, "nombre": "Carlos Mendoza", "email": "carlos@example.com", "password": "hash_password_1", "imagen_perfil": "https://randomuser.me/api/portraits/men/1.jpg", "creado_en": "2024-01-10T14:30:00Z"},
+      {"id": 2, "nombre": "Ana Gómez", "email": "ana@example.com", "password": "hash_password_2", "imagen_perfil": "https://randomuser.me/api/portraits/women/2.jpg", "creado_en": "2024-01-12T08:45:00Z"},
+      {"id": 3, "nombre": "Miguel Torres", "email": "miguel@example.com", "password": "hash_password_3", "imagen_perfil": "https://randomuser.me/api/portraits/men/3.jpg", "creado_en": "2024-01-15T11:20:00Z"},
+      {"id": 4, "nombre": "Laura Martínez", "email": "laura@example.com", "password": "hash_password_4", "imagen_perfil": "https://randomuser.me/api/portraits/women/4.jpg", "creado_en": "2024-01-20T16:15:00Z"},
+      {"id": 5, "nombre": "Pedro Sánchez", "email": "pedro@example.com", "password": "hash_password_5", "imagen_perfil": "https://randomuser.me/api/portraits/men/5.jpg", "creado_en": "2024-01-25T09:30:00Z"},
+      {"id": 6, "nombre": "Sofía Rodríguez", "email": "sofia@example.com", "password": "hash_password_6", "imagen_perfil": "https://randomuser.me/api/portraits/women/6.jpg", "creado_en": "2024-02-01T13:45:00Z"},
+      {"id": 7, "nombre": "Lucas García", "email": "lucas@example.com", "password": "hash_password_7", "imagen_perfil": "https://randomuser.me/api/portraits/men/7.jpg", "creado_en": "2024-02-05T10:20:00Z"},
+      {"id": 8, "nombre": "Valentina Díaz", "email": "valentina@example.com", "password": "hash_password_8", "imagen_perfil": "https://randomuser.me/api/portraits/women/8.jpg", "creado_en": "2024-02-10T15:10:00Z"},
+      {"id": 9, "nombre": "Diego López", "email": "diego@example.com", "password": "hash_password_9", "imagen_perfil": "https://randomuser.me/api/portraits/men/9.jpg", "creado_en": "2024-02-15T08:30:00Z"},
+      {"id": 10, "nombre": "Camila Pérez", "email": "camila@example.com", "password": "hash_password_10", "imagen_perfil": "https://randomuser.me/api/portraits/women/10.jpg", "creado_en": "2024-02-20T12:00:00Z"}
+    ],
 
-  "Amistad": [
-    {"id": 1, "usuario_id": 1, "amigo_id": 2, "estado": "aceptada", "creado_en": "2024-02-15T10:30:00Z"},
-    {"id": 2, "usuario_id": 1, "amigo_id": 3, "estado": "aceptada", "creado_en": "2024-02-20T14:45:00Z"},
-    {"id": 3, "usuario_id": 2, "amigo_id": 4, "estado": "aceptada", "creado_en": "2024-02-25T09:15:00Z"},
-    {"id": 4, "usuario_id": 3, "amigo_id": 5, "estado": "aceptada", "creado_en": "2024-03-01T16:20:00Z"},
-    {"id": 5, "usuario_id": 4, "amigo_id": 6, "estado": "pendiente", "creado_en": "2024-03-05T11:40:00Z"},
-    {"id": 6, "usuario_id": 5, "amigo_id": 7, "estado": "aceptada", "creado_en": "2024-03-10T13:25:00Z"},
-    {"id": 7, "usuario_id": 6, "amigo_id": 8, "estado": "rechazada", "creado_en": "2024-03-15T10:10:00Z"},
-    {"id": 8, "usuario_id": 7, "amigo_id": 9, "estado": "aceptada", "creado_en": "2024-03-20T15:55:00Z"},
-    {"id": 9, "usuario_id": 8, "amigo_id": 10, "estado": "pendiente", "creado_en": "2024-03-25T12:30:00Z"},
-    {"id": 10, "usuario_id": 9, "amigo_id": 1, "estado": "aceptada", "creado_en": "2024-04-01T09:45:00Z"}
-  ]
+    "Amistad": [
+      {"id": 1, "usuario_id": 1, "amigo_id": 2, "estado": "aceptada", "creado_en": "2024-02-15T10:30:00Z"},
+      {"id": 2, "usuario_id": 1, "amigo_id": 3, "estado": "aceptada", "creado_en": "2024-02-20T14:45:00Z"},
+      {"id": 3, "usuario_id": 2, "amigo_id": 4, "estado": "aceptada", "creado_en": "2024-02-25T09:15:00Z"},
+      {"id": 4, "usuario_id": 3, "amigo_id": 5, "estado": "aceptada", "creado_en": "2024-03-01T16:20:00Z"},
+      {"id": 5, "usuario_id": 4, "amigo_id": 6, "estado": "pendiente", "creado_en": "2024-03-05T11:40:00Z"},
+      {"id": 6, "usuario_id": 5, "amigo_id": 7, "estado": "aceptada", "creado_en": "2024-03-10T13:25:00Z"},
+      {"id": 7, "usuario_id": 6, "amigo_id": 8, "estado": "rechazada", "creado_en": "2024-03-15T10:10:00Z"},
+      {"id": 8, "usuario_id": 7, "amigo_id": 9, "estado": "aceptada", "creado_en": "2024-03-20T15:55:00Z"},
+      {"id": 9, "usuario_id": 8, "amigo_id": 10, "estado": "pendiente", "creado_en": "2024-03-25T12:30:00Z"},
+      {"id": 10, "usuario_id": 9, "amigo_id": 1, "estado": "aceptada", "creado_en": "2024-04-01T09:45:00Z"}
+    ]
 }

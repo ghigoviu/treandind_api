@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
-from Schema.Usuario import UsuarioCreate, UsuarioRead, UsuarioUpdate
+from Schema.Base.Usuario import UsuarioCreate, UsuarioRead, UsuarioUpdate, LoginRequest
+from Schema.Usuario import UsuarioSchema
 from Repositorio.Usuario import UsuarioRepo
 from ControladorRest import get_db
 
@@ -20,7 +21,18 @@ class UsuarioRest:
     def obtener_todos(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
         return UsuarioRepo.fetch_all(db, skip=skip, limit=limit)
 
-    @router.get("/{usuario_id}", response_model=UsuarioRead)
+    @router.post("/login", response_model=UsuarioSchema)
+    def login(request: LoginRequest, db: Session = Depends(get_db)):
+        usuario = UsuarioRepo.fetch_by_email(db, request.email)
+        if not usuario:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Usuario no encontrado")
+
+        if usuario.password != request.password:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Credenciales inválidas")
+
+        return usuario
+
+    @router.get("/id/{usuario_id}", response_model=UsuarioSchema)
     def obtener_por_id(usuario_id: int, db: Session = Depends(get_db)):
         usuario = UsuarioRepo.fetch_by_id(db, usuario_id)
         if not usuario:

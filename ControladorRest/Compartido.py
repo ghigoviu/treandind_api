@@ -3,7 +3,8 @@ from sqlalchemy.orm import Session
 from typing import List
 
 from Repositorio.Compartido import CompartidoRepo
-from Schema.Compartido import CompartidoUpdate, CompartidoRead, CompartidoCreate
+from Schema.Base.Compartido import CompartidoUpdate, CompartidoRead, CompartidoCreate
+from Schema.Compartido import CompartidoSchema
 from ControladorRest import get_db
 
 
@@ -14,7 +15,7 @@ class CompartidoRest:
     def obtener_todos(db: Session = Depends(get_db)):
         return CompartidoRepo.fetch_all(db)
 
-    @router.get("/{compartido_id}", response_model=CompartidoRead)
+    @router.get("/{compartido_id}", response_model=CompartidoSchema)
     def obtener_por_id(compartido_id: int, db: Session = Depends(get_db)):
         compartido = CompartidoRepo.fetch_by_id(db, compartido_id)
         if not compartido:
