@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Schema/Base/Compartido.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Base/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/treanding_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/treanding_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControladorRest/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControladorRest/Compartido.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControladorRest/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControladorRest/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos/data/Usuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Usuario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Amistad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Compartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Compartido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos/data/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Evento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Evento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Producto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/ProductoAtributo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/ProductoAtributo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schema/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Usuario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

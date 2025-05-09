@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 
 from Repositorio.Producto import ProductoRepo
-from Schema.Producto import ProductoCreate, ProductoRead, ProductoUpdate
+from Schema.Producto import ProductoCreate, ProductoRead, ProductoUpdate, ProductoSchema
 from ControladorRest import get_db
 
 
@@ -18,7 +18,7 @@ class ProductoRest:
     def get_all(db: Session = Depends(get_db)):
         return ProductoRepo.fetch_all(db)
 
-    @router.get("/{producto_id}", response_model=ProductoRead)
+    @router.get("/id/{producto_id}", response_model=ProductoSchema)
     def get_by_id(producto_id: int, db: Session = Depends(get_db)):
         db_producto = ProductoRepo.fetch_by_id(db, producto_id)
         if not db_producto:

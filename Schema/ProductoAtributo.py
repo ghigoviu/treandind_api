@@ -6,12 +6,12 @@ class ProductoAtributoBase(BaseModel):
     valor: str
 
 
-class ProductoAtributoCreate(ProductoAtributoBase):
-    producto_id: int
-
-
 class ProductoAtributoRead(ProductoAtributoBase):
     id: int
 
     class Config:
         from_attributes = True
+
+
+class ProductoAtributoCreate(ProductoAtributoBase):
+    producto_id: int

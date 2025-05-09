@@ -13,6 +13,10 @@ class Producto(Base):
     precio = Column(Float, nullable=False)
     stock = Column(Integer, nullable=False, default=0)
 
+    usuario_creador = relationship("Usuario", back_populates="productos")
+    imagenes = relationship("ProductoImagen", back_populates="producto")
+    atributos = relationship("ProductoAtributo", back_populates="producto")
+
     usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
     categoria_id = Column(Integer, ForeignKey("categorias.id"))
     categoria = relationship("Categoria", back_populates="productos")
@@ -23,7 +27,7 @@ class Producto(Base):
     creado_en = Column(DateTime, default=func.now(), nullable=False)
 
     # Relaciones
-    usuario = relationship("Usuario", backref="productos")
+    usuario_creador = relationship("Usuario", back_populates="productos")
     imagenes = relationship("ProductoImagen", back_populates="producto")
     atributos = relationship("ProductoAtributo", back_populates="producto")
 

@@ -47,7 +47,17 @@ INSERT INTO amistades (id, usuario_id, amigo_id, estado, creado_en) VALUES
 (7, 6, 8, 'rechazada', '2024-03-15 10:10:00'),
 (8, 7, 9, 'aceptada', '2024-03-20 15:55:00'),
 (9, 8, 10, 'pendiente', '2024-03-25 12:30:00'),
-(10, 9, 1, 'aceptada', '2024-04-01 09:45:00');
+(10, 9, 1, 'aceptada', '2024-04-01 09:45:00'),
+(11, 1, 4, 'aceptada', '2024-02-15 10:30:00'),
+(12, 1, 5, 'aceptada', '2024-02-20 14:45:00'),
+(13, 2, 6, 'aceptada', '2024-02-25 09:15:00'),
+(14, 3, 7, 'aceptada', '2024-03-01 16:20:00'),
+(15, 4, 8, 'pendiente', '2024-03-05 11:40:00'),
+(16, 5, 9, 'aceptada', '2024-03-10 13:25:00'),
+(17, 6, 10, 'rechazada', '2024-03-15 10:10:00'),
+(18, 7, 1, 'aceptada', '2024-03-20 15:55:00'),
+(19, 8, 2, 'pendiente', '2024-03-25 12:30:00'),
+(20, 9, 3, 'aceptada', '2024-04-01 09:45:00');
 
 INSERT INTO categorias (id, nombre, descripcion) VALUES
 (1, 'Tecnología', 'Dispositivos electrónicos y gadgets' ),

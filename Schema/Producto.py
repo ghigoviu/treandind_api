@@ -1,6 +1,10 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime
+
+from Schema.ProductoAtributo import ProductoAtributoRead
+from Schema.ProductoImagen import ProductoImagenRead
+from Schema.Review import ReviewRead
 
 
 class ProductoBase(BaseModel):
@@ -12,10 +16,6 @@ class ProductoBase(BaseModel):
     requiere_edad: bool = False
 
 
-class ProductoCreate(ProductoBase):
-    usuario_id: int
-
-
 class ProductoRead(ProductoBase):
     id: int
     calificacion: float
@@ -23,6 +23,16 @@ class ProductoRead(ProductoBase):
 
     class Config:
         from_attributes = True
+
+
+class ProductoSchema(ProductoRead):
+    atributos: List[ProductoAtributoRead] = []
+    imagenes: List[ProductoImagenRead] = []
+    reviews: List[ReviewRead] = []
+
+
+class ProductoCreate(ProductoBase):
+    usuario_id: int
 
 
 class ProductoUpdate(BaseModel):
