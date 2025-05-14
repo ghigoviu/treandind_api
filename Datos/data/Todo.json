@@ -153,15 +153,15 @@
   ],
 
   "Highlights": [
-  {"id": 1, "descripcion": "Exploración de espacios urbanos a través del arte callejero.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:00:00", "usuario_id": 1},
-  {"id": 2, "descripcion": "Documental experimental sobre identidad cultural.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:05:00", "usuario_id": 1},
-  {"id": 3, "descripcion": "Instalación lumínica en espacios naturales.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:10:00", "usuario_id": 1},
-  {"id": 4, "descripcion": "Colaboración con artistas locales en proyecto comunitario.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:15:00", "usuario_id": 2},
-  {"id": 5, "descripcion": "Exposición itinerante sobre migración y memoria.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:20:00", "usuario_id": 2},
-  {"id": 6, "descripcion": "Performance en ruinas industriales abandonadas.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:25:00", "usuario_id": 3},
-  {"id": 7, "descripcion": "Galería virtual interactiva con tecnologías emergentes.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:30:00", "usuario_id": 4},
-  {"id": 8, "descripcion": "Archivo visual de la vida cotidiana durante una pandemia.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:35:00", "usuario_id": 5},
-  {"id": 9, "descripcion": "Recorrido sonoro por territorios ancestrales.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:40:00", "usuario_id": 6},
-  {"id": 10, "descripcion": "Proyecto colaborativo de arte generativo con IA.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:45:00", "usuario_id": 7}
-]
+    {"id": 1, "descripcion": "Exploración de espacios urbanos a través del arte callejero.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:00:00", "usuario_id": 1},
+    {"id": 2, "descripcion": "Documental experimental sobre identidad cultural.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:05:00", "usuario_id": 1},
+    {"id": 3, "descripcion": "Instalación lumínica en espacios naturales.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:10:00", "usuario_id": 1},
+    {"id": 4, "descripcion": "Colaboración con artistas locales en proyecto comunitario.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:15:00", "usuario_id": 2},
+    {"id": 5, "descripcion": "Exposición itinerante sobre migración y memoria.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:20:00", "usuario_id": 2},
+    {"id": 6, "descripcion": "Performance en ruinas industriales abandonadas.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:25:00", "usuario_id": 3},
+    {"id": 7, "descripcion": "Galería virtual interactiva con tecnologías emergentes.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:30:00", "usuario_id": 4},
+    {"id": 8, "descripcion": "Archivo visual de la vida cotidiana durante una pandemia.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:35:00", "usuario_id": 5},
+    {"id": 9, "descripcion": "Recorrido sonoro por territorios ancestrales.", "img": "https://i.imgur.com/kMPBA7y_d.webp?maxwidth=520&shape=thumb&fidelity=high", "video": null, "creado_en": "2025-05-13T10:40:00", "usuario_id": 6},
+    {"id": 10, "descripcion": "Proyecto colaborativo de arte generativo con IA.", "img": null, "video": "https://i.imgur.com/gallery/evel-knievel-snake-river-jump-cat-edition-dlNKDwT.mp4", "creado_en": "2025-05-13T10:45:00", "usuario_id": 7}
+  ]
 }

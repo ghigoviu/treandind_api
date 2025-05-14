@@ -18,7 +18,8 @@ class Producto(Base):
     requiere_edad = Column(Boolean, default=False)
     calificacion = Column(Float, default=0.0)  # precalculado
 
-    usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
+    usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=True)
+    colaboracion_id = Column(Integer, ForeignKey('colaboracion.id'), nullable=True)
     categoria_id = Column(Integer, ForeignKey("categorias.id"))
     categoria = relationship("Categoria", back_populates="productos")
 

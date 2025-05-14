@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControladorRest/Highlight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Colaboracion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/ColaboracionUsuario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Highlight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Pagina.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Highlight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Colaboracion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Highlight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schema/Pagina.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/key_treanding_api.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datos/data/Highlight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Colaboracion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos/data/Categoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Categoria.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos/data/Producto.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Producto.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datos/data/Todo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Todo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos/data/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/insert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Categoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Categoria.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelo/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/ProductoAtributo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/ProductoAtributo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/ProductoImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/ProductoImagen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorio/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Amistad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ConsultasGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConsultasGet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/Colaboracion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Colaboracion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
