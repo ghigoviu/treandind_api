@@ -3,7 +3,7 @@ import requests
 
 
 def make_request(entity):
-    base_url = "http://localhost:8081/" + entity
+    base_url = "http://192.168.0.243:8081/" + entity
     response = requests.get(f'{base_url}')
     return response
 
@@ -12,6 +12,14 @@ class MyTestCase(unittest.TestCase):
     def test_get_usuarios(self):
         # Act:
         response = make_request('usuarios')
+        status_code = response.status_code
+        data = response.json()
+        self.assertEqual(200, status_code)  # add assertion here
+        self.assertGreaterEqual(len(data), 10)
+
+    def test_get_highlight(self):
+        # Act:
+        response = make_request('highlights')
         status_code = response.status_code
         data = response.json()
         self.assertEqual(200, status_code)  # add assertion here

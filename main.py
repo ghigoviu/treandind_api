@@ -10,6 +10,7 @@ from ControladorRest.Producto import ProductoRest
 from ControladorRest.Review import ReviewRest
 from ControladorRest.Orden import OrdenRest
 from ControladorRest.Compartido import CompartidoRest
+from ControladorRest.Highlight import HighlightRest
 from Datos.ManejadorBD import ManejadorBD
 
 app = FastAPI(title="API para aplicación de Treanding de Usuario")
@@ -23,6 +24,7 @@ app.include_router(EventoRest.router)
 app.include_router(ReviewRest.router)
 app.include_router(OrdenRest.router)
 app.include_router(CompartidoRest.router)
+app.include_router(HighlightRest.router)
 
 config_object = ConfigParser()
 config_object.read('config.ini')

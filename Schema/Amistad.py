@@ -1,6 +1,7 @@
 from pydantic import BaseModel, field_validator
 from datetime import datetime
 from typing import Optional
+from Schema.Base.Usuario import UsuarioRead
 
 
 class AmistadBase(BaseModel):
@@ -33,3 +34,15 @@ class AmistadRead(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class AmistadUsuario(BaseModel):
+    usuario: Optional[UsuarioRead] = None
+    estado: Optional[str] = "pendiente"
+    creado_en: datetime
+
+
+class AmistadAmigo(BaseModel):
+    amigo: Optional[UsuarioRead] = None
+    estado: Optional[str] = "pendiente"
+    creado_en: datetime

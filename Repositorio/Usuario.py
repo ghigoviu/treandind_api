@@ -1,6 +1,8 @@
 from sqlalchemy.orm import Session
 from Modelo.Usuario import Usuario
-from typing import List, Optional, Type
+from Modelo.Colaboracion import Colaboracion
+from Modelo.ColaboracionUsuario import ColaboracionUsuario
+from typing import Optional, Type
 
 
 class UsuarioRepo:

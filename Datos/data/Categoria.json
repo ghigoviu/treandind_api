@@ -1,14 +1,16 @@
 {
   "Categoria": [
-    {"id": 1, "nombre": "Electrónica", "descripcion": "Dispositivos y accesorios electrónicos"},
-    {"id": 2, "nombre": "Ropa", "descripcion": "Prendas y accesorios de vestir"},
-    {"id": 3, "nombre": "Hogar", "descripcion": "Artículos para el hogar y decoración"},
-    {"id": 4, "nombre": "Deportes", "descripcion": "Equipamiento e indumentaria deportiva"},
-    {"id": 5, "nombre": "Libros", "descripcion": "Libros físicos y digitales"},
-    {"id": 6, "nombre": "Belleza", "descripcion": "Productos de cuidado personal y cosmética"},
-    {"id": 7, "nombre": "Juguetes", "descripcion": "Juguetes para niños de todas las edades"},
-    {"id": 8, "nombre": "Alimentos", "descripcion": "Productos alimenticios no perecederos"},
-    {"id": 9, "nombre": "Mascotas", "descripcion": "Artículos para animales domésticos"},
-    {"id": 10, "nombre": "Música", "descripcion": "Instrumentos y accesorios musicales"}
+    {"id": 1, "nombre": "Ropa", "descripcion": "Prendas y accesorios de vestir", "image":  "https://i.imgur.com/QkIa5tT.jpeg"},
+    {"id": 2, "nombre": "Electrónicos", "descripcion": "Dispositivos y accesorios electrónicos", "image": "https://example.com/images/smartphone_1.jpg"},
+    {"id": 3, "nombre": "Muebles", "descripcion": "Estilos y accesorios para el hogar", "image": "https://i.imgur.com/Qphac99.jpeg"},
+    {"id": 4, "nombre": "Zapatos", "descripcion": "Estilos para terminar de combinar el outfit", "image":  "https://i.imgur.com/qNOjJje.jpeg"},
+    {"id": 5, "nombre": "Deportes", "descripcion": "Equipamiento e indumentaria deportiva", "image":  ""},
+    {"id": 6, "nombre": "Libros", "descripcion": "Libros físicos y digitales", "image":  ""},
+    {"id": 7, "nombre": "Belleza", "descripcion": "Productos de cuidado personal y cosmética", "image":  ""},
+    {"id": 8, "nombre": "Juguetes", "descripcion": "Juguetes para niños de todas las edades", "image":  ""},
+    {"id": 9, "nombre": "Alimentos", "descripcion": "Productos alimenticios no perecederos", "image":  ""},
+    {"id": 10, "nombre": "Mascotas", "descripcion": "Artículos para animales domésticos", "image":  ""},
+    {"id": 11, "nombre": "Música", "descripcion": "Instrumentos y accesorios musicales", "image":  ""},
+    {"id": 12, "nombre": "Misceláneos", "descripcion": "Otros objetos", "image": "https://i.imgur.com/BG8J0Fj.jpg"}
   ]
 }

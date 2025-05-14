@@ -9,22 +9,18 @@ class Producto(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     nombre = Column(String(100), nullable=False)
+    slug = Column(String(100), nullable=False, default='slug')
     descripcion = Column(Text, nullable=True)
     precio = Column(Float, nullable=False)
     stock = Column(Integer, nullable=False, default=0)
-
-    usuario_creador = relationship("Usuario", back_populates="productos")
-    imagenes = relationship("ProductoImagen", back_populates="producto")
-    atributos = relationship("ProductoAtributo", back_populates="producto")
+    img_portada = Column(String(255), nullable=False, default="")
+    creado_en = Column(DateTime, default=func.now(), nullable=False)
+    requiere_edad = Column(Boolean, default=False)
+    calificacion = Column(Float, default=0.0)  # precalculado
 
     usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
     categoria_id = Column(Integer, ForeignKey("categorias.id"))
     categoria = relationship("Categoria", back_populates="productos")
-
-    requiere_edad = Column(Boolean, default=False)
-    calificacion = Column(Float, default=0.0)  # precalculado
-
-    creado_en = Column(DateTime, default=func.now(), nullable=False)
 
     # Relaciones
     usuario_creador = relationship("Usuario", back_populates="productos")

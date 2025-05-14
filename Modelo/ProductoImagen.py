@@ -9,7 +9,7 @@ class ProductoImagen(Base):
     id = Column(Integer, primary_key=True, index=True)
     producto_id = Column(Integer, ForeignKey('productos.id'), nullable=False)
     url = Column(String(255), nullable=False)
-    es_portada = Column(Boolean, default=False)
+    es_portada = Column(Boolean, nullable=False, default=False)
 
     # Relación
     producto = relationship("Producto", back_populates="imagenes")

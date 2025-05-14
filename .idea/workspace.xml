@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ControladorRest/Highlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Colaboracion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/ColaboracionUsuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Highlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Pagina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositorio/Highlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Colaboracion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Highlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Schema/Pagina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key_treanding_api.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos/data/Categoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Categoria.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos/data/Producto.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Producto.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos/data/Todo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Todo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datos/data/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/insert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Evento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Evento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Categoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Categoria.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelo/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/ProductoAtributo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/ProductoAtributo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/ProductoImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/ProductoImagen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelo/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorio/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Amistad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schema/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/ProductoAtributo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/ProductoAtributo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schema/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ConsultasGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConsultasGet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for ConsultasGet.MyTestCase.test_get_usuarios.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in ConsultasGet.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/treandind_api&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for ConsultasGet.MyTestCase.executor": "Run",
+    "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_amistades.executor": "Run",
+    "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos.executor": "Run",
+    "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight.executor": "Run",
+    "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_usuarios.executor": "Run",
+    "Python tests.Python tests in ConsultasGet.py.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/treandind_api",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\treandind_api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\treandind_api" />
       <recent name="C:\Users\rodrigo.cambray\PycharmProjects\treanding_api" />
     </key>
   </component>
@@ -135,6 +159,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for ConsultasGet.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="treanding_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ConsultasGet.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_amistades" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="treanding_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ConsultasGet.MyTestCase.test_get_amistades&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_eventos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="treanding_api" />
       <option name="ENV_FILES" value="" />
@@ -150,7 +204,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_usuarios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_highlight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="treanding_api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +215,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ConsultasGet.MyTestCase.test_get_usuarios&quot;" />
+      <option name="_new_target" value="&quot;ConsultasGet.MyTestCase.test_get_highlight&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -183,22 +237,26 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase" />
+      <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_amistades" />
+      <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight" />
       <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos" />
-      <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_usuarios" />
       <item itemvalue="Python tests.Python tests in ConsultasGet.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight" />
+        <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_amistades" />
+        <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase" />
         <item itemvalue="Python tests.Python tests in ConsultasGet.py" />
         <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos" />
-        <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_usuarios" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17" />
       </set>
     </attachedChunks>
   </component>
