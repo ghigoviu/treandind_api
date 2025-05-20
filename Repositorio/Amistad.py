@@ -1,7 +1,7 @@
 from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from starlette.exceptions import HTTPException
-from typing import List
+from typing import List, Type, Optional
 
 from Modelo.Amistad import Amistad
 
@@ -37,3 +37,23 @@ class AmistadRepo:
         db.commit()
         db.refresh(nueva)
         return nueva
+
+    @staticmethod
+    def delete(db: Session, amistad_id: int) -> Type[Amistad] | None:
+        orden = db.query(Amistad).filter(Amistad.id == amistad_id).first()
+        if orden:
+            db.delete(orden)
+            db.commit()
+            return orden
+        return None
+
+    @staticmethod
+    def update(db: Session, amistad_id: int, amistad_data: dict) -> Optional[Amistad]:
+        categoria = db.query(Amistad).filter(Amistad.id == amistad_id).first()
+        if categoria:
+            for key, value in amistad_data.items():
+                setattr(categoria, key, value)
+            db.commit()
+            db.refresh(categoria)
+            return categoria
+        return None

@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16f18ba-5c21-4312-8025-89bf8e8f7ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Datos/data/Highlight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorio/Colaboracion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControladorRest/Router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PeticionesPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos/data/Todo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Datos/data/Todo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Producto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schema/Colaboracion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Colaboracion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControladorRest/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControladorRest/Amistad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Amistad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorio/Amistad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Amistad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorio/Colaboracion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorio/Colaboracion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema/Base/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schema/Base/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -49,6 +52,7 @@
     "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos.executor": "Run",
     "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight.executor": "Run",
     "Python tests.Python tests for ConsultasGet.MyTestCase.test_get_usuarios.executor": "Run",
+    "Python tests.Python tests for PeticionesPost.MyTestCase.test_post_amistades.executor": "Run",
     "Python tests.Python tests in ConsultasGet.py.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -167,21 +171,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_eventos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="treanding_api" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ConsultasGet.MyTestCase.test_get_eventos&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for ConsultasGet.MyTestCase.test_get_highlight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="treanding_api" />
       <option name="ENV_FILES" value="" />
@@ -194,6 +183,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;ConsultasGet.MyTestCase.test_get_highlight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for PeticionesPost.MyTestCase.test_post_amistades" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="treanding_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PeticionesPost.MyTestCase.test_post_amistades&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -215,19 +219,19 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Python tests for PeticionesPost.MyTestCase.test_post_amistades" />
       <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase" />
       <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_amistades" />
       <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight" />
-      <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos" />
       <item itemvalue="Python tests.Python tests in ConsultasGet.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for PeticionesPost.MyTestCase.test_post_amistades" />
         <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_highlight" />
         <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_amistades" />
         <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase" />
         <item itemvalue="Python tests.Python tests in ConsultasGet.py" />
-        <item itemvalue="Python tests.Python tests for ConsultasGet.MyTestCase.test_get_eventos" />
       </list>
     </recent_temporary>
   </component>

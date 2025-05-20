@@ -9,15 +9,14 @@ class Amistad(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     estado = Column(String(20), default='pendiente')  # pendiente, aceptada, rechazada
-    creado_en = Column(DateTime, default=func.now(), nullable=False)
     amigo_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
     usuario_id = Column(Integer, ForeignKey('usuarios.id'), nullable=False)
+    creado_en = Column(DateTime, default=func.now(), nullable=False)
 
     usuario = relationship("Usuario", foreign_keys=[usuario_id], back_populates="amistades_enviadas")
     amigo = relationship("Usuario", foreign_keys=[amigo_id], back_populates="amistades_recibidas")
 
-    def __init__(self, usuario_id, amigo_id, estado, creado_en):
+    def __init__(self, usuario_id, amigo_id, estado):
         self.estado = estado
-        self.creado_en = creado_en
         self.usuario_id = usuario_id
         self.amigo_id = amigo_id

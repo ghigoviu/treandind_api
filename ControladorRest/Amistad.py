@@ -1,7 +1,8 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Path
 from sqlalchemy.orm import Session
 from typing import List
 
+from Modelo.Amistad import Amistad
 from Schema.Amistad import AmistadRead, AmistadCreate, AmistadUpdate
 from Repositorio.Amistad import AmistadRepo
 from ControladorRest import get_db
@@ -25,12 +26,23 @@ class AmistadRest:
             raise HTTPException(status_code=404, detail="Amistad no encontrada")
         return amistad
 
-    @router.put("/{amistad_id}", response_model=AmistadRead)
-    def actualizar(amistad_id: int, amistad: AmistadUpdate, db: Session = Depends(get_db)):
-        actualizada = AmistadRepo.update(db, amistad_id, amistad.dict(exclude_unset=True))
-        if not actualizada:
+    @router.patch("/{amistad_id}/estado")
+    def actualizar_estado_amistad(amistad_id: int = Path(..., gt=0), datos: AmistadUpdate = None, db: Session = Depends(get_db)):
+        amistad = db.query(Amistad).filter(Amistad.id == amistad_id).first()
+        if not amistad:
             raise HTTPException(status_code=404, detail="Amistad no encontrada")
-        return actualizada
+
+        if amistad.estado != 'pendiente':
+            raise HTTPException(
+                status_code=400,
+                detail=f"No se puede actualizar una amistad que ya fue '{amistad.estado}'"
+            )
+
+        amistad.estado = datos.estado
+        db.commit()
+        db.refresh(amistad)
+
+        return {"mensaje": "Estado actualizado correctamente", "amistad": amistad}
 
     @router.delete("/{amistad_id}", response_model=AmistadRead)
     def eliminar(amistad_id: int, db: Session = Depends(get_db)):
