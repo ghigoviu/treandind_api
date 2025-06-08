@@ -3,23 +3,23 @@ from typing import Optional
 from datetime import datetime
 
 
-class HighlightBase(BaseModel):
+class ColaboracionBase(BaseModel):
     desc: str
     img: Optional[str] = None
     video: Optional[str] = None
 
 
-class HighlightCreate(HighlightBase):
+class ColaboracionCreate(ColaboracionBase):
     usuario_id: int
 
 
-class HighlightUpdate(BaseModel):
+class ColaboracionUpdate(BaseModel):
     desc: Optional[str] = None
     img: Optional[str] = None
     video: Optional[str] = None
 
 
-class HighlightRead(HighlightBase):
+class ColaboracionRead(ColaboracionBase):
     id: int
     usuario_id: int
     creado_en: datetime

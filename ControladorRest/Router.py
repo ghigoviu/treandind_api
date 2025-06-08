@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from configparser import ConfigParser
 
 from ControladorRest.Usuario import UsuarioRest
+from ControladorRest.Colaboracion import ColaboracionRest
 from ControladorRest.Categoria import CategoriaRest
 from ControladorRest.Amistad import AmistadRest
 from ControladorRest.Evento import EventoRest
@@ -14,6 +15,7 @@ from ControladorRest.Highlight import HighlightRest
 app = FastAPI(title="API para aplicación de Treanding de Usuario")
 
 # Incluimos el router de la clase UsuarioRest
+app.include_router(ColaboracionRest.router)
 app.include_router(UsuarioRest.router)
 app.include_router(ProductoRest.router)
 app.include_router(CategoriaRest.router)

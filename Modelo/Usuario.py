@@ -31,3 +31,6 @@ class Usuario(Base):
         self.email = email
         self.password = password
         self.imagen_perfil = imagen_perfil
+
+    def __str__(self):
+        return self.nombre

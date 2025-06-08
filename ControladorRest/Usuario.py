@@ -39,7 +39,7 @@ class UsuarioRest:
             raise HTTPException(status_code=404, detail="Usuario no encontrado")
         return usuario
 
-    @router.put("/{usuario_id}", response_model=UsuarioSchema)
+    @router.put("/{usuario_id}", response_model=UsuarioRead)
     def actualizar(usuario_id: int, usuario: UsuarioUpdate, db: Session = Depends(get_db)):
         actualizado = UsuarioRepo.update(db, usuario_id, usuario.dict(exclude_unset=True))
         if not actualizado:

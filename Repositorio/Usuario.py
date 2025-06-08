@@ -1,7 +1,5 @@
 from sqlalchemy.orm import Session
 from Modelo.Usuario import Usuario
-from Modelo.Colaboracion import Colaboracion
-from Modelo.ColaboracionUsuario import ColaboracionUsuario
 from typing import Optional, Type
 
 
@@ -27,13 +25,15 @@ class UsuarioRepo:
         return usuario
 
     @staticmethod
-    def update(db: Session, usuario_id: int, usuario_data: dict) -> Optional[Usuario]:
+    def update(db: Session, usuario_id: int, usuario_data: dict) -> Type[Usuario] | None:
         usuario = db.query(Usuario).filter(Usuario.id == usuario_id).first()
         if usuario:
             for key, value in usuario_data.items():
-                setattr(usuario, key, value)
+                if hasattr(usuario, key):
+                    setattr(usuario, key, value)
             db.commit()
             db.refresh(usuario)
+            print(usuario)
             return usuario
         return None
 

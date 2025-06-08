@@ -1,10 +1,8 @@
-from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session, joinedload
-from starlette.exceptions import HTTPException
 from typing import List, Type
 
-from Modelo.Colaboracion import Colaboracion
 from Modelo.ColaboracionUsuario import ColaboracionUsuario
+from Modelo.Colaboracion import Colaboracion
 
 
 class ColaboracionRepo:
@@ -13,7 +11,7 @@ class ColaboracionRepo:
     def fetch_all(db: Session, skip: int = 0, limit: int = 100) -> List[Colaboracion]:
         return db.query(Colaboracion).offset(skip).limit(limit).all()
 
-    ## Recordar colocar una valdacion para evitar que haya dos usuarios en la misma colaboracion
+    ## Recordar colocar una valdacion para evitar que el mismo usuario esté en la misma colaboracion
 
     '''
     @staticmethod
