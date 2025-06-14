@@ -12,7 +12,7 @@ class Usuario(Base):
     email = Column(String(100), unique=True, nullable=False, index=True)
     password = Column(String(128), nullable=False)  # Idealmente hash
     imagen_perfil = Column(String(255), nullable=True)  # URL puede ser larga
-    img_portada = Column(String(255), nullable=True)  # URL puede ser larga
+    imagen_portada = Column(String(255), nullable=True)  # URL puede ser larga
     bio = Column(String(100), nullable=False, default="New on Treanding")
     phone = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=True)
@@ -33,4 +33,4 @@ class Usuario(Base):
         self.imagen_perfil = imagen_perfil
 
     def __str__(self):
-        return self.nombre
+        return f"Usuario (id={self.id!r}, nombre={self.nombre!r}, info={self.phone!r} {self.email!r} {self.bio!r}"

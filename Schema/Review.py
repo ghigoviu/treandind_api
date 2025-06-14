@@ -2,6 +2,8 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 
+from Schema.Base.Usuario import UsuarioRead
+
 
 class ReviewBase(BaseModel):
     calificacion: float
@@ -16,9 +18,9 @@ class ReviewCreate(ReviewBase):
 
 class ReviewRead(ReviewBase):
     id: int
+    usuario: Optional[UsuarioRead] = None
     producto_id: Optional[int] = None
     evento_id: Optional[int] = None
-    usuario_id: int
     creado_en: datetime
 
     class Config:

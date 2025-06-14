@@ -25,4 +25,4 @@ class ColaboracionRead(ColaboracionBase):
     creado_en: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True

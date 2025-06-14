@@ -35,7 +35,7 @@ class UsuarioUpdate(BaseModel):
     nombre: Optional[str] = None
     email: Optional[EmailStr] = None
     imagen_perfil: Optional[str] = None
-    img_portada: Optional[str] = None
+    imagen_portada: Optional[str] = None
     bio: Optional[str] = None
     phone: Optional[str] = None
     birthdate: Optional[datetime] = None

@@ -10,6 +10,7 @@ class ProductoAtributo(Base):
     producto_id = Column(Integer, ForeignKey('productos.id'), nullable=False)
     nombre = Column(String(50), nullable=False)
     valor = Column(String(100), nullable=False)
+    cantidad = Column(Float, nullable=True, default=None)
     precio = Column(Float, nullable=True, default=None)
 
     # Relación
