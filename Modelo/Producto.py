@@ -28,8 +28,8 @@ class Producto(Base):
     imagenes = relationship("ProductoImagen", back_populates="producto")
     atributos = relationship("ProductoAtributo", back_populates="producto")
 
-    def __init__(self, nombre, descripcion, precio, stock, usuario_id, categoria_id=None,
-                 requiere_edad=False, calificacion=0.0):
+    def __init__(self, nombre, descripcion, precio, stock, usuario_id, imagen_portada,
+                 categoria_id=None, requiere_edad=False, calificacion=0.0):
         self.nombre = nombre
         self.descripcion = descripcion
         self.precio = precio
@@ -38,3 +38,4 @@ class Producto(Base):
         self.categoria_id = categoria_id
         self.requiere_edad = requiere_edad
         self.calificacion = calificacion
+        self.img_portada = imagen_portada

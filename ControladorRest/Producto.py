@@ -18,9 +18,9 @@ class ProductoRest:
     def get_all(db: Session = Depends(get_db)):
         return ProductoRepo.fetch_all(db)
 
-    @router.get("/id/{producto_id}", response_model=ProductoSchema)
+    @router.get("/id/{producto_id}")
     def get_by_id(producto_id: int, db: Session = Depends(get_db)):
-        db_producto = ProductoRepo.fetch_by_id(db, producto_id)
+        db_producto = ProductoRepo.fetch_by_id_personalizado(db, producto_id)
         if not db_producto:
             raise HTTPException(status_code=404, detail="Producto no encontrado")
         return db_producto

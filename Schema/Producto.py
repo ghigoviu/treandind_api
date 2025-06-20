@@ -37,7 +37,13 @@ class ProductoSchema(ProductoRead):
 
 
 class ProductoCreate(ProductoBase):
-    usuario_id: int
+    nombre: str
+    precio: float
+    stock: Optional[str] = None
+    descripcion: str
+    img_portada: Optional[str] = None
+    usuario_id: Optional[int] = None
+    colaboracion_id: Optional[int] = None
 
 
 class ProductoUpdate(BaseModel):
