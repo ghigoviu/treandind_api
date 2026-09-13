@@ -31,6 +31,16 @@ class EventoRest:
     def get_all(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
         return EventoRepo.fetch_all(db, skip, limit)
 
+    @router.get("/vendedor/{usuario_id}", response_model=List[EventoRead])
+    def get_by_vendedor(usuario_id: int, db: Session = Depends(get_db)):
+        """Eventos creados por un usuario (vendedor)."""
+        return EventoRepo.fetch_by_vendedor(db, usuario_id)
+
+    @router.get("/usuario/{usuario_id}/suscritos", response_model=List[EventoRead])
+    def get_suscritos(usuario_id: int, db: Session = Depends(get_db)):
+        """Eventos a los que el usuario se ha suscrito (para su calendario)."""
+        return EventoRepo.fetch_suscritos(db, usuario_id)
+
     @router.get("/{evento_id}", response_model=EventoRead)
     def get_by_id(evento_id: int, db: Session = Depends(get_db)):
         evento = EventoRepo.fetch_by_id(db, evento_id)

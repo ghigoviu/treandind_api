@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from Modelo.Compartido import Compartido
-from Modelo.Amistad import Amistad
+from Repositorio.Amistad import AmistadRepo
 from fastapi import HTTPException, status
 
 
@@ -26,13 +26,8 @@ class CompartidoRepo:
                 detail="No puedes compartir contenido contigo mismo."
             )
 
-        #  Validación 2: El amigo debe estar en la lista de amistades del usuario
-        amistad = db.query(Amistad).filter(
-            Amistad.usuario_id == usuario_id,
-            Amistad.amigo_id == amigo_id
-        ).first()
-
-        if not amistad:
+        #  Validación 2: debe existir amistad entre ambos, en CUALQUIER dirección.
+        if not AmistadRepo.existe_amistad(db, usuario_id, amigo_id):
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail="No puedes compartir contenido con alguien que no es tu amigo."

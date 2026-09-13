@@ -18,6 +18,16 @@ class ProductoRest:
     def get_all(db: Session = Depends(get_db)):
         return ProductoRepo.fetch_all(db)
 
+    @router.get("/vendedor/{usuario_id}", response_model=List[ProductoRead])
+    def get_by_vendedor(usuario_id: int, db: Session = Depends(get_db)):
+        """Productos publicados por un vendedor (incluye ocultos, para el dueño)."""
+        return ProductoRepo.fetch_by_vendedor(db, usuario_id, incluir_ocultos=True)
+
+    @router.get("/feed/{usuario_id}", response_model=List[ProductoRead])
+    def get_feed(usuario_id: int, skip: int = 0, limit: int = 50, db: Session = Depends(get_db)):
+        """Timeline: productos de los vendedores que el usuario sigue."""
+        return ProductoRepo.fetch_feed(db, usuario_id, skip, limit)
+
     @router.get("/id/{producto_id}")
     def get_by_id(producto_id: int, db: Session = Depends(get_db)):
         db_producto = ProductoRepo.fetch_by_id_personalizado(db, producto_id)
@@ -32,9 +42,9 @@ class ProductoRest:
             raise HTTPException(status_code=404, detail="Producto no encontrado")
         return db_producto
 
-    @router.delete("/{producto_id}", response_model=ProductoRead)
+    @router.delete("/{producto_id}")
     def delete(producto_id: int, db: Session = Depends(get_db)):
-        db_producto = ProductoRepo.delete(db, producto_id)
-        if not db_producto:
+        eliminado_id = ProductoRepo.delete(db, producto_id)
+        if not eliminado_id:
             raise HTTPException(status_code=404, detail="Producto no encontrado")
-        return db_producto
+        return {"mensaje": "Producto eliminado", "id": eliminado_id}

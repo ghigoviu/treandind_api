@@ -25,6 +25,13 @@ class OrdenBase(BaseModel):
     usuario_id: int
 
 
+class CompraRequest(BaseModel):
+    """Compra simple de un producto: crea orden + detalle y descuenta stock."""
+    usuario_id: int
+    producto_id: int
+    cantidad: int = Field(1, gt=0)
+
+
 class OrdenCreate(BaseModel):
     orden: OrdenBase
     detalles: List[OrdenDetalleCreate]
@@ -46,7 +53,7 @@ class OrdenDetalleRead(BaseModel):
     producto_id: Optional[int]
     evento_id: Optional[int]
     cantidad: int
-    precio_unitario: float
+    precio_unit: float
 
     class Config:
         from_attributes = True

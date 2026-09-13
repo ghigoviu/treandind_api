@@ -38,9 +38,9 @@ class ReviewRest:
             raise HTTPException(status_code=404, detail="Review no encontrado")
         return updated
 
-    @router.delete("/{review_id}/usuario/{usuario_id}", response_model=ReviewRead)
+    @router.delete("/{review_id}/usuario/{usuario_id}")
     def delete_review(review_id: int, usuario_id: int, db: Session = Depends(get_db)):
         deleted = ReviewRepo.delete(db, review_id, usuario_id)
         if not deleted:
             raise HTTPException(status_code=404, detail="Review no encontrado o ya fue eliminado")
-        return deleted
+        return {"mensaje": "Review eliminado", "id": deleted["id"]}

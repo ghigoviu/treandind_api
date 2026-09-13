@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from configparser import ConfigParser
 
+from Datos.Config import get_host_config
 from ControladorRest.Usuario import UsuarioRest
 from ControladorRest.Colaboracion import ColaboracionRest
 from ControladorRest.Categoria import CategoriaRest
@@ -11,6 +11,11 @@ from ControladorRest.Review import ReviewRest
 from ControladorRest.Orden import OrdenRest
 from ControladorRest.Compartido import CompartidoRest
 from ControladorRest.Highlight import HighlightRest
+from ControladorRest.Seguidor import SeguidorRest
+from ControladorRest.PerfilVendedor import PerfilVendedorRest
+from ControladorRest.Notificacion import NotificacionRest
+from ControladorRest.Estadistica import EstadisticaRest
+from ControladorRest.Membresia import MembresiaRest
 
 app = FastAPI(title="API para aplicación de Treanding de Usuario")
 
@@ -25,7 +30,10 @@ app.include_router(ReviewRest.router)
 app.include_router(OrdenRest.router)
 app.include_router(CompartidoRest.router)
 app.include_router(HighlightRest.router)
+app.include_router(SeguidorRest.router)
+app.include_router(PerfilVendedorRest.router)
+app.include_router(NotificacionRest.router)
+app.include_router(EstadisticaRest.router)
+app.include_router(MembresiaRest.router)
 
-config_object = ConfigParser()
-config_object.read('config.ini')
-host_info = config_object['host']
+host_info = get_host_config()

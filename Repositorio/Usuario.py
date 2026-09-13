@@ -33,7 +33,6 @@ class UsuarioRepo:
                     setattr(usuario, key, value)
             db.commit()
             db.refresh(usuario)
-            print(usuario)
             return usuario
         return None
 

@@ -13,6 +13,9 @@ class Producto(Base):
     descripcion = Column(Text, nullable=True)
     precio = Column(Float, nullable=False)
     stock = Column(Integer, nullable=False, default=0)
+    tipo = Column(String(20), nullable=False, default='fisico')  # fisico, servicio, evento
+    oculto = Column(Boolean, nullable=False, default=False)
+    vip = Column(Boolean, nullable=False, default=False)  # solo visible para suscriptores VIP
     img_portada = Column(String(255), nullable=False, default="")
     creado_en = Column(DateTime, default=func.now(), nullable=False)
     requiere_edad = Column(Boolean, default=False)
@@ -28,14 +31,22 @@ class Producto(Base):
     imagenes = relationship("ProductoImagen", back_populates="producto")
     atributos = relationship("ProductoAtributo", back_populates="producto")
 
-    def __init__(self, nombre, descripcion, precio, stock, usuario_id, imagen_portada,
-                 categoria_id=None, requiere_edad=False, calificacion=0.0):
+    def __init__(self, nombre, precio, usuario_id, descripcion=None, stock=0,
+                 tipo='fisico', oculto=False, vip=False, img_portada="", categoria_id=None,
+                 requiere_edad=False, calificacion=0.0, colaboracion_id=None,
+                 imagen_portada=None, slug=None, **kwargs):
         self.nombre = nombre
         self.descripcion = descripcion
         self.precio = precio
         self.stock = stock
+        self.tipo = tipo
+        self.oculto = oculto
+        self.vip = vip
         self.usuario_id = usuario_id
         self.categoria_id = categoria_id
+        self.colaboracion_id = colaboracion_id
         self.requiere_edad = requiere_edad
         self.calificacion = calificacion
-        self.img_portada = imagen_portada
+        self.img_portada = imagen_portada or img_portada or ""
+        if slug:
+            self.slug = slug

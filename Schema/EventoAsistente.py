@@ -4,12 +4,13 @@ from typing import Optional
 
 
 class EventoAsistenteBase(BaseModel):
-    estado: str  # Ej: "confirmada", "pendiente", "cancelada"
+    estado: Optional[str] = 'pendiente'  # confirmada, pendiente, cancelada
 
 
-class EventoAsistenteCreate(EventoAsistenteBase):
-    evento_id: int
+class EventoAsistenteCreate(BaseModel):
     usuario_id: int
+    evento_id: Optional[int] = None  # se toma de la ruta; opcional en el body
+    estado: Optional[str] = 'pendiente'
 
 
 class EventoAsistenteRead(EventoAsistenteBase):
